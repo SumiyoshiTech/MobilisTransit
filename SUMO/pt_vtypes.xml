@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-21 19:46:11.315637 by Eclipse SUMO gtfs2pt.py v1_28_0+0000-daf91b55789
+<configuration>
+    <gtfs value="mobilis.zip"/>
+    <date value="20261123"/>
+    <modes value="bus"/>
+    <vtype-output value="pt_vtypes.xml"/>
+    <network value="leiria.net.xml.gz"/>
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <vType id="bus" vClass="bus"/>
+</additional>

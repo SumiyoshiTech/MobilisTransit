@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="leiria.net.xml.gz"/>
+        <additional-files value="pt_vtypes.xml,gtfs_pt_stops.add.xml,gtfs_pt_vehicles_L9.add.xml"/>
+    </input>
+    <time>
+        <begin value="25200"/>
+        <end value="72000"/>
+    </time>
+</configuration>

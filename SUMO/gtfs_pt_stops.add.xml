@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-21 19:49:49.919173 by Eclipse SUMO gtfs2pt.py v1_28_0+0000-daf91b55789
+<configuration>
+    <gtfs value="mobilis.zip"/>
+    <date value="20261123"/>
+    <modes value="bus"/>
+    <vtype-output value="pt_vtypes.xml"/>
+    <network value="leiria.net.xml.gz"/>
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" lane="805921562#2_0" startPos="3.43" endPos="16.43" friendlyPos="true" name="Av. Bernardo Pimenta (Estádio)"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" lane="23644719#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Capitão Mouzinho De Albuquerque">
+        <access friendlyPos="true" lane="-686415947_0" pos="8.99" length="82.05"/>
+        <access friendlyPos="true" lane="-829499740#1_0" pos="63.10" length="21.75"/>
+        <access friendlyPos="true" lane="1207290313#2_0" pos="68.16" length="3.22"/>
+        <access friendlyPos="true" lane="1207290313#3_0" pos="0.00" length="31.62"/>
+        <access friendlyPos="true" lane="175877310_0" pos="68.59" length="85.65"/>
+        <access friendlyPos="true" lane="175877456_0" pos="14.67" length="67.12"/>
+        <access friendlyPos="true" lane="175877480#0_0" pos="17.18" length="62.08"/>
+        <access friendlyPos="true" lane="256469339_0" pos="0.00" length="70.37"/>
+        <access friendlyPos="true" lane="686415947_0" pos="4.60" length="76.96"/>
+        <access friendlyPos="true" lane="829499740#1_0" pos="2.23" length="26.55"/>
+    </busStop>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" lane="809868212#0_0" startPos="10.56" endPos="23.56" friendlyPos="true" name="Largo Cónego Maia / Sé"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.3" lane="144558081#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fonte das 3 Bicas"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.4" lane="144558084#1_0" startPos="60.18" endPos="73.18" friendlyPos="true" name="Largo Santo Agostinho"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.5" lane="1111824251#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Av. General Humberto Delgado 1"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.6" lane="38549699#1_0" startPos="9.36" endPos="22.36" friendlyPos="true" name="Av. General Humberto Delgado 2"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.7" lane="-718023864#3_0" startPos="52.14" endPos="65.14" friendlyPos="true" name="Av. N. S. Fátima"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.8" lane="717653154_0" startPos="35.01" endPos="48.01" friendlyPos="true" name="Av. N. S. Fátima / Sra. da Encarnação">
+        <access friendlyPos="true" lane="-1026805548_0" pos="39.29" length="57.04"/>
+        <access friendlyPos="true" lane="-1026805549#0_0" pos="0.00" length="56.70"/>
+        <access friendlyPos="true" lane="-717653159#0_0" pos="31.45" length="1.14"/>
+        <access friendlyPos="true" lane="-717653159#1_0" pos="58.08" length="61.30"/>
+        <access friendlyPos="true" lane="1026805549#0_0" pos="1.30" length="51.91"/>
+        <access friendlyPos="true" lane="1026805549#1_0" pos="0.00" length="52.31"/>
+        <access friendlyPos="true" lane="1313801104#3_0" pos="91.06" length="32.16"/>
+        <access friendlyPos="true" lane="145210014#1_0" pos="94.04" length="23.01"/>
+        <access friendlyPos="true" lane="717653159#0_0" pos="327.90" length="4.15"/>
+        <access friendlyPos="true" lane="717653159#1_0" pos="0.00" length="61.60"/>
+    </busStop>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.9" lane="270504355#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Av. Marquês de Pombal">
+        <access friendlyPos="true" lane="-144833143#0_0" pos="0.72" length="24.37"/>
+        <access friendlyPos="true" lane="1288626973#1_0" pos="75.84" length="21.80"/>
+        <access friendlyPos="true" lane="1288626977#1_0" pos="91.58" length="24.38"/>
+        <access friendlyPos="true" lane="1288626988_0" pos="67.16" length="0.58"/>
+        <access friendlyPos="true" lane="1288626989#1_0" pos="0.00" length="21.46"/>
+        <access friendlyPos="true" lane="144833143#0_0" pos="0.00" length="22.49"/>
+        <access friendlyPos="true" lane="144833144#0_0" pos="8.10" length="9.39"/>
+        <access friendlyPos="true" lane="38515106#0_0" pos="0.34" length="16.90"/>
+        <access friendlyPos="true" lane="907887606#0_0" pos="0.20" length="26.39"/>
+        <access friendlyPos="true" lane="907887606#1_0" pos="0.00" length="26.15"/>
+    </busStop>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.10" lane="697428526#3_0" startPos="0.00" endPos="9.87" friendlyPos="true" name="Bairro dos Sargentos"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.11" lane="713181358#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Centro De Saúde Gorjão Henriques / Residências IPL"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.12" lane="93627036#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Qta. Do Seminário (Centro Comercial)"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.13" lane="-705196003#1_0" startPos="0.00" endPos="7.45" friendlyPos="true" name="Campus 2 IPL"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.14" lane="23592134_0" startPos="35.12" endPos="48.12" friendlyPos="true" name="Rotunda Alto do Vieiro"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.15" lane="-792763918_0" startPos="9.25" endPos="22.25" friendlyPos="true" name="Porto Moniz / Esc. F. Rodrigues Lobo"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.16" lane="-1026104495_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Câmara Municipal / ESEL"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.17" lane="-682926167#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Bairro dos Capuchos"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.18" lane="425372714#7_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Esc. Domingos Sequeira"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.19" lane="733616003#1_0" startPos="0.00" endPos="7.83" friendlyPos="true" name="Av. 25 De Abril"/>
+    <busStop id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.20" lane="-733616006#0_0" startPos="23.68" endPos="36.68" friendlyPos="true" name="Av. 25 de Abril / Castelo de Leiria">
+        <access friendlyPos="true" lane="-743181887#2_0" pos="0.00" length="47.19"/>
+        <access friendlyPos="true" lane="-981052527_0" pos="0.00" length="14.58"/>
+        <access friendlyPos="true" lane="-981052528#0_0" pos="0.20" length="7.90"/>
+        <access friendlyPos="true" lane="1219566370#0_0" pos="121.35" length="21.28"/>
+        <access friendlyPos="true" lane="1537739015_0" pos="0.00" length="6.99"/>
+        <access friendlyPos="true" lane="743181887#2_0" pos="5.90" length="46.97"/>
+        <access friendlyPos="true" lane="981052527_0" pos="21.69" length="16.09"/>
+        <access friendlyPos="true" lane="981052528#0_0" pos="0.00" length="6.49"/>
+        <access friendlyPos="true" lane="981052529#0_0" pos="23.41" length="0.79"/>
+        <access friendlyPos="true" lane="981052529#1_0" pos="0.00" length="11.25"/>
+    </busStop>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.9" lane="-1387497498_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Estação"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.10" lane="1387503532#1_0" startPos="13.79" endPos="26.79" friendlyPos="true" name="Estrada da Estação"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.11" lane="1387501510_0" startPos="65.57" endPos="78.57" friendlyPos="true" name="Bairro das Almoínhas"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.12" lane="107382853#2_0" startPos="19.10" endPos="32.10" friendlyPos="true" name="Estádio Magalhães Pessoa"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.14" lane="733059825#1_0" startPos="2.57" endPos="15.57" friendlyPos="true" name="Av. 25 De Abril">
+        <access friendlyPos="true" lane="-175877476#1_0" pos="61.78" length="19.67"/>
+        <access friendlyPos="true" lane="-731786324#0_0" pos="24.30" length="27.97"/>
+        <access friendlyPos="true" lane="1117017184#1_0" pos="0.20" length="19.17"/>
+        <access friendlyPos="true" lane="1117017184#2_0" pos="0.20" length="15.79"/>
+        <access friendlyPos="true" lane="1117017187#1_0" pos="1.19" length="18.76"/>
+        <access friendlyPos="true" lane="1117017187#2_0" pos="7.27" length="3.88"/>
+        <access friendlyPos="true" lane="175877476#1_0" pos="7.50" length="14.87"/>
+        <access friendlyPos="true" lane="731786324#0_0" pos="0.00" length="26.11"/>
+        <access friendlyPos="true" lane="733616003#0_1" pos="5.38" length="16.30"/>
+        <access friendlyPos="true" lane="733616003#1_1" pos="0.00" length="19.75"/>
+    </busStop>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.15" lane="530723189#1_0" startPos="65.14" endPos="78.14" friendlyPos="true" name="Av. Papa Francisco">
+        <access friendlyPos="true" lane="-741976867#0_0" pos="39.00" length="95.53"/>
+        <access friendlyPos="true" lane="-927628517#2_0" pos="72.24" length="5.76"/>
+        <access friendlyPos="true" lane="1219425649_0" pos="0.00" length="76.58"/>
+        <access friendlyPos="true" lane="38461765#0_0" pos="0.20" length="92.80"/>
+        <access friendlyPos="true" lane="38461765#1_0" pos="0.00" length="93.09"/>
+        <access friendlyPos="true" lane="667331003_0" pos="24.63" length="97.33"/>
+        <access friendlyPos="true" lane="741976867#0_0" pos="0.00" length="92.78"/>
+        <access friendlyPos="true" lane="788048360#0_0" pos="4.80" length="78.97"/>
+        <access friendlyPos="true" lane="788048360#1_0" pos="21.71" length="50.29"/>
+        <access friendlyPos="true" lane="927628517#2_0" pos="304.57" length="2.76"/>
+    </busStop>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.16" lane="682926167#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Bairro dos Capuchos"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.17" lane="650122888#0_0" startPos="54.96" endPos="67.96" friendlyPos="true" name="Câmara Municipal / ESEL"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.18" lane="792763918_0" startPos="2.52" endPos="15.52" friendlyPos="true" name="Porto Moniz / Esc. F. Rodrigues Lobo"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.22" lane="696751087#0_0" startPos="25.55" endPos="38.55" friendlyPos="true" name="Escola José Saraiva"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.23" lane="-175877175#7_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua da Malaposta"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.24" lane="-175877175#1_0" startPos="30.53" endPos="43.53" friendlyPos="true" name="Prisão Escola"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.25" lane="-713181358#4_0" startPos="7.47" endPos="20.47" friendlyPos="true" name="Centro De Saúde Gorjão Henriques / Residências IPL"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.26" lane="-697428526#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Bairro dos Sargentos"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.27" lane="517716074#2_0" startPos="71.84" endPos="84.84" friendlyPos="true" name="Av. Marquês de Pombal">
+        <access friendlyPos="true" lane="1288626977#1_0" pos="91.62" length="0.03"/>
+        <access friendlyPos="true" lane="1288626979#1_0" pos="0.00" length="29.40"/>
+        <access friendlyPos="true" lane="1288626988_0" pos="66.93" length="24.99"/>
+        <access friendlyPos="true" lane="1288626989#1_0" pos="0.00" length="33.13"/>
+        <access friendlyPos="true" lane="144833144#0_0" pos="8.09" length="33.80"/>
+        <access friendlyPos="true" lane="38515106#0_0" pos="0.00" length="27.04"/>
+        <access friendlyPos="true" lane="907887605#0_0" pos="0.00" length="25.70"/>
+        <access friendlyPos="true" lane="907887605#1_0" pos="0.00" length="28.88"/>
+        <access friendlyPos="true" lane="907887605#2_0" pos="0.00" length="32.42"/>
+        <access friendlyPos="true" lane="907887606#1_0" pos="0.25" length="33.73"/>
+    </busStop>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.30" lane="38552643#0_0" startPos="85.38" endPos="98.38" friendlyPos="true" name="Guimarota"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.31" lane="888437221#4_0" startPos="12.46" endPos="25.46" friendlyPos="true" name="Escola Profissional / ISLA"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.32" lane="-246818075#0_0" startPos="141.41" endPos="154.41" friendlyPos="true" name="São Romão / Rua Florentino Pedro Lopes"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.33" lane="-119645619#1_0" startPos="28.46" endPos="41.46" friendlyPos="true" name="São Romão / Rua da Fonte"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.34" lane="888437231#0_0" startPos="4.04" endPos="17.04" friendlyPos="true" name="São Romão / Rua Esperança CETL"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.35" lane="-888442316#1_0" startPos="168.37" endPos="181.37" friendlyPos="true" name="Hospital (Visitas)"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.36" lane="-102148772#1_0" startPos="26.63" endPos="39.63" friendlyPos="true" name="Hospital (Consultas Externas)"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.37" lane="-733339862#1_0" startPos="35.10" endPos="48.10" friendlyPos="true" name="Escola Correia Mateus"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.38" lane="-858780518#0_0" startPos="3.05" endPos="16.05" friendlyPos="true" name="Rua Das Olhalvas / Hospital Santo André"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.39" lane="604620401#0_0" startPos="28.87" endPos="41.87" friendlyPos="true" name="Rua de Santo André"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.40" lane="838924823_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua das Olhalvas"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.41" lane="1387811508_0" startPos="34.72" endPos="47.72" friendlyPos="true" name="Bombeiros Municipais"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.42" lane="144558088#1_0" startPos="119.38" endPos="132.38" friendlyPos="true" name="Ponte Hintze Ribeiro"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.43" lane="-23591885#0_0" startPos="14.04" endPos="27.04" friendlyPos="true" name="Jardim Luís de Camões">
+        <access friendlyPos="true" lane="588512386#11_0" pos="28.46" length="25.52"/>
+        <access friendlyPos="true" lane="588512386#12_0" pos="0.00" length="25.12"/>
+        <access friendlyPos="true" lane="588512386#1_0" pos="12.68" length="0.98"/>
+        <access friendlyPos="true" lane="588512386#2_0" pos="0.00" length="13.51"/>
+        <access friendlyPos="true" lane="588512386#3_0" pos="0.00" length="18.77"/>
+        <access friendlyPos="true" lane="809862692#9_0" pos="39.92" length="9.75"/>
+        <access friendlyPos="true" lane="809862693#0_0" pos="0.00" length="12.01"/>
+        <access friendlyPos="true" lane="809866693#2_0" pos="9.79" length="21.02"/>
+        <access friendlyPos="true" lane="809866694#0_0" pos="0.20" length="25.49"/>
+        <access friendlyPos="true" lane="809866694#1_0" pos="0.20" length="17.92"/>
+    </busStop>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.44" lane="739868624#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Dr. Américo Cortez Pinto"/>
+    <busStop id="1011-1-001-A-U-06h40-AvBernardoPimen.45" lane="-166576346_0" startPos="35.33" endPos="48.33" friendlyPos="true" name="Av. Cidade de Maringá / Mercado Municipal"/>
+    <busStop id="1011-1-031-AX2431-U-25h20-AvBernardoPimen.1" lane="1036889062_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Arrabalde da Ponte"/>
+    <busStop id="1011-1-031-AX2431-U-25h20-AvBernardoPimen.2" lane="963617552#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Nova Leiria"/>
+    <busStop id="1011-1-031-AX2431-U-25h20-AvBernardoPimen.3" lane="886815502_0" startPos="32.24" endPos="45.24" friendlyPos="true" name="Almoínha Grande"/>
+    <busStop id="1011-1-031-AX2431-U-25h20-AvBernardoPimen.4" lane="-1387501511#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Bairro das Almoínhas"/>
+    <busStop id="1011-1-031-AX2431-U-25h20-AvBernardoPimen.5" lane="-23600630#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Estrada da Estação"/>
+    <busStop id="1011-1-031-AX2431-U-25h20-AvBernardoPimen.6" lane="-888011201#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua João de Deus"/>
+    <busStop id="1012-1-001-A-U-06h50-AvBernardoPimen.4" lane="-1387811509#0_0" startPos="42.11" endPos="55.11" friendlyPos="true" name="Ponte Hintze Ribeiro"/>
+    <busStop id="1012-1-001-A-U-06h50-AvBernardoPimen.5" lane="-1387811508_0" startPos="25.97" endPos="38.97" friendlyPos="true" name="Bombeiros Municipais"/>
+    <busStop id="1012-1-001-A-U-06h50-AvBernardoPimen.10" lane="-888437231#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="São Romão / Rua Esperança CETL"/>
+    <busStop id="1012-1-001-A-U-06h50-AvBernardoPimen.11" lane="119645619#1_0" startPos="35.78" endPos="48.78" friendlyPos="true" name="São Romão / Rua da Fonte"/>
+    <busStop id="1012-1-001-A-U-06h50-AvBernardoPimen.12" lane="267588216#5_0" startPos="72.23" endPos="85.23" friendlyPos="true" name="São Romão Rua Cor. Pereira Pascoal"/>
+    <busStop id="1012-1-001-A-U-06h50-AvBernardoPimen.13" lane="265349386#1_0" startPos="19.80" endPos="32.80" friendlyPos="true" name="Guimarota"/>
+    <busStop id="1012-1-001-A-U-06h50-AvBernardoPimen.24" lane="38461713#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Cidade de Tokushima"/>
+    <busStop id="1012-1-001-A-U-06h50-AvBernardoPimen.29" lane="107382846#2_0" startPos="81.79" endPos="94.79" friendlyPos="true" name="Av. Bernardo Pimenta (Terminal)"/>
+    <busStop id="1012-1-001-A-U-06h50-AvBernardoPimen.30" lane="107382849#1_0" startPos="7.19" endPos="20.19" friendlyPos="true" name="Estádio Magalhães Pessoa"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.1" lane="308758569#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua 20 De Junho / Igreja Marinheiros"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.2" lane="-759412427#1_0" startPos="283.81" endPos="296.81" friendlyPos="true" name="Estrada Dos Marinheiros / X Travessa Oliveiras"/>
+    <busStop id="1023-1-001-A-U-06h35-AvBernardoPimen.3" lane="-759412427#1_0" startPos="57.21" endPos="70.21" friendlyPos="true" name="Quinta do Bispo / Instituto Seg. Social"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.3" lane="759412427#0_0" startPos="222.87" endPos="235.87" friendlyPos="true" name="Quinta do Bispo / Instituto Seg. Social"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.4" lane="-51536589#0_0" startPos="73.01" endPos="86.01" friendlyPos="true" name="Rua da Matinha"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.5" lane="-1036889062_0" startPos="0.00" endPos="12.74" friendlyPos="true" name="Arrabalde da Ponte"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.9" lane="1354384620#1_0" startPos="11.82" endPos="24.82" friendlyPos="true" name="Mercado Sant'ana">
+        <access friendlyPos="true" lane="-270613766_0" pos="0.00" length="13.97"/>
+        <access friendlyPos="true" lane="1020103923#0_0" pos="0.71" length="43.89"/>
+        <access friendlyPos="true" lane="1020103923#1_0" pos="25.40" length="4.34"/>
+        <access friendlyPos="true" lane="1020103926#0_0" pos="0.00" length="45.24"/>
+        <access friendlyPos="true" lane="1020103927#0_0" pos="0.20" length="41.14"/>
+        <access friendlyPos="true" lane="1020103927#1_0" pos="0.00" length="41.74"/>
+        <access friendlyPos="true" lane="1354383847#1_0" pos="10.93" length="44.39"/>
+        <access friendlyPos="true" lane="270613766_0" pos="17.78" length="16.97"/>
+        <access friendlyPos="true" lane="733059823#1_0" pos="0.00" length="47.20"/>
+        <access friendlyPos="true" lane="769991760#0_0" pos="0.00" length="51.57"/>
+    </busStop>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.10" lane="-686704770_0" startPos="0.00" endPos="12.17" friendlyPos="true" name="Largo Da República"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.12" lane="1576660774#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Prisão Escola"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.13" lane="-535287021#18_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Colégio Conciliar De Maria Imaculada"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.14" lane="-535287021#16_0" startPos="4.79" endPos="17.79" friendlyPos="true" name="Rua D. José Alves Correia Silva"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.15" lane="493041509#8_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Lino António (Rua Titto Larcher)"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.16" lane="493041509#11_0" startPos="52.16" endPos="65.16" friendlyPos="true" name="Rua Lino António (Rua Poeta José da Cruz)"/>
+    <busStop id="1013-1-001-A-U-06h20-PontedaPedraXMa.17" lane="-535287021#1_0" startPos="255.45" endPos="268.45" friendlyPos="true" name="Rua Imaculada Conceição / Quartel"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.6" lane="858780518#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Das Olhalvas / Hospital Santo André"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.7" lane="733339862#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Escola Correia Mateus"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.8" lane="269739478#0_0" startPos="17.84" endPos="30.84" friendlyPos="true" name="Rua Paulo VI"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.9" lane="727273810#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Paulo VI / X N350"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.10" lane="-112574322#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Escola Primária Andrinos"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.11" lane="-112574322#0_0" startPos="152.17" endPos="165.17" friendlyPos="true" name="Rua Principal EN350"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.12" lane="112574322#0_0" startPos="29.75" endPos="42.75" friendlyPos="true" name="Q. Sirol. R. Calmeira"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.13" lane="112574320#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Paulo VI / X Rua Vale Sepal"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.15" lane="-1030082778_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Paulo VI / X Marinheiros"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.16" lane="-727273810#1_0" startPos="14.27" endPos="27.27" friendlyPos="true" name="Rua Paulo VI / X N350"/>
+    <busStop id="1014-1-001-A-U-07h00-AvBernardoPimen.17" lane="-647242667#3_0" startPos="9.81" endPos="22.81" friendlyPos="true" name="Rua Paulo VI"/>
+    <busStop id="1015-1-001-A-U-06h45-AvBernardoPimen.6" lane="-906726029#0_0" startPos="14.32" endPos="27.32" friendlyPos="true" name="Quinta da Matinha"/>
+    <busStop id="1015-1-001-A-U-06h45-AvBernardoPimen.7" lane="-38512554_0" startPos="202.09" endPos="215.09" friendlyPos="true" name="Esc. Formação Social"/>
+    <busStop id="1015-1-001-A-U-06h45-AvBernardoPimen.8" lane="-38512554_0" startPos="492.68" endPos="505.68" friendlyPos="true" name="Residência Paroquial"/>
+    <busStop id="1015-1-001-A-U-06h45-AvBernardoPimen.9" lane="38512554_0" startPos="274.04" endPos="287.04" friendlyPos="true" name="Esc. Formação Social"/>
+    <busStop id="1015-1-001-A-U-06h45-AvBernardoPimen.10" lane="38512554_0" startPos="488.77" endPos="501.77" friendlyPos="true" name="Quinta da Matinha"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.6" lane="728209795_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rotunda do Alto do Vieiro"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.7" lane="-76691265_0" startPos="12.76" endPos="25.76" friendlyPos="true" name="Casal de Santa Clara"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.8" lane="-952246033#0_0" startPos="70.89" endPos="83.89" friendlyPos="true" name="Rua da Quinta (Rua do Convento)"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.9" lane="-1315993784_0" startPos="136.97" endPos="149.97" friendlyPos="true" name="Rua da Quinta (Rotunda Edifoz)"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.10" lane="-197287475_0" startPos="106.64" endPos="119.64" friendlyPos="true" name="Rua da Carvalha"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.11" lane="76691246_0" startPos="37.24" endPos="50.24" friendlyPos="true" name="Incubadora IPL"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.12" lane="1274278486_0" startPos="25.06" endPos="38.06" friendlyPos="true" name="Rua de Santa Clara (Rotunda Edifoz)"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.13" lane="728177678_0" startPos="146.69" endPos="159.69" friendlyPos="true" name="Rua de Santa Clara (Rotunda Aérea)"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.14" lane="1390727438_0" startPos="107.73" endPos="120.73" friendlyPos="true" name="Quinta do Pisão"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.15" lane="1390727440#1_0" startPos="14.35" endPos="27.35" friendlyPos="true" name="X Rua Santa Maria"/>
+    <busStop id="1016-1-001-A-U-07h10-AvBernardoPimen.16" lane="625405140#1_0" startPos="595.44" endPos="608.44" friendlyPos="true" name="Junta Freguesia Parceiros"/>
+    <busStop id="1017-1-001-A-U-07h00-AvBernardoPimen.10" lane="102148784#1_0" startPos="8.41" endPos="21.41" friendlyPos="true" name="Rua da Cooperativa / X Casal dos Matos"/>
+    <busStop id="1017-1-001-A-U-07h00-AvBernardoPimen.11" lane="102148784#3_0" startPos="137.99" endPos="150.99" friendlyPos="true" name="Rua N. S. Fátima"/>
+    <busStop id="1017-1-001-A-U-07h00-AvBernardoPimen.21" lane="-140836411#2_0" startPos="342.82" endPos="355.82" friendlyPos="true" name="R. Prof. Abílio Alves De Brito / Farmácia"/>
+    <busStop id="1017-1-001-A-U-07h00-AvBernardoPimen.22" lane="140836411#0_0" startPos="209.93" endPos="222.93" friendlyPos="true" name="Rua Coronel José Pereira Pascoal"/>
+    <busStop id="1018-1-001-A-U-08h30-AvBernardoPimen.7" lane="265349376#11_0" startPos="8.38" endPos="21.38" friendlyPos="true" name="Esc. Básica Guimarota (N356-2)"/>
+    <busStop id="1018-1-001-A-U-08h30-AvBernardoPimen.8" lane="-798614584_0" startPos="1745.88" endPos="1758.88" friendlyPos="true" name="Moinho Novo"/>
+    <busStop id="1018-1-001-A-U-08h30-AvBernardoPimen.13" lane="-102148784#3_0" startPos="13.02" endPos="26.02" friendlyPos="true" name="Rua N. S. Fátima"/>
+    <busStop id="1018-1-001-A-U-08h30-AvBernardoPimen.14" lane="-102148784#2_0" startPos="217.56" endPos="230.56" friendlyPos="true" name="Rua da Cooperativa / X Casal dos Matos"/>
+    <busStop id="1018-1-001-A-U-08h30-AvBernardoPimen.15" lane="-888437221#2_0" startPos="0.00" endPos="1.07" friendlyPos="true" name="Escola Profissional / ISLA"/>
+    <busStop id="1018-1-001-A-U-08h30-AvBernardoPimen.19" lane="-144558084#1_0" startPos="7.42" endPos="20.42" friendlyPos="true" name="Largo Santo Agostinho"/>
+    <busStop id="1023-1-001-A-U-06h35-AvBernardoPimen.2" lane="-759412427#6_0" startPos="15.41" endPos="28.41" friendlyPos="true" name="Rua da Matinha"/>
+    <busStop id="1023-1-002-A-U-07h00-TelheiroRImacul.5" lane="535287021#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Imaculada Conceição / Quartel"/>
+    <busStop id="1023-1-002-A-U-07h00-TelheiroRImacul.6" lane="-493041509#11_0" startPos="31.67" endPos="44.67" friendlyPos="true" name="Rua Lino António (Rua Poeta José da Cruz)"/>
+    <busStop id="1023-1-002-A-U-07h00-TelheiroRImacul.7" lane="-493041509#5_0" startPos="0.00" endPos="9.34" friendlyPos="true" name="Rua Lino António (Rua Titto Larcher)"/>
+    <busStop id="1023-1-002-A-U-07h00-TelheiroRImacul.8" lane="535287021#14_0" startPos="79.86" endPos="92.86" friendlyPos="true" name="Rua D. José Alves Correia Silva"/>
+    <busStop id="1023-1-002-A-U-07h00-TelheiroRImacul.9" lane="535287021#19_0" startPos="26.60" endPos="39.60" friendlyPos="true" name="Colégio Conciliar De Maria Imaculada"/>
+    <busStop id="1023-1-002-A-U-07h00-TelheiroRImacul.10" lane="-1576660775_0" startPos="11.63" endPos="24.63" friendlyPos="true" name="Prisão Escola"/>
+    <busStop id="1023-1-002-A-U-07h00-TelheiroRImacul.12" lane="686704771#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Largo Da República"/>
+    <busStop id="1026-1-001-A-U-06h45-RuaSantaCatarin.7" lane="1390727440#2_0" startPos="102.45" endPos="115.45" friendlyPos="true" name="Junta Freguesia Parceiros"/>
+    <busStop id="1026-1-001-A-U-06h45-RuaSantaCatarin.8" lane="-1390727440#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="X Rua Santa Maria"/>
+    <busStop id="1026-1-001-A-U-06h45-RuaSantaCatarin.9" lane="-647269989#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Quinta do Pisão"/>
+</additional>
