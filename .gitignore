@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# --- Simulation Outputs & Generated Datasets (Large Files) ---
+recorded_runs/
+dataset_output/
+generated_traffic/
+*.ndjson
+*.csv
+*.parquet
+*_fcd.xml
+*_vehicles.add.xml
+*routes.rou.xml
+# --- Logs & Temporary Files ---
+*.log
+batch_generation.log
+.DS_Store
+Thumbs.db
+
+# --- Raw / Unfiltered GTFS & OSM Downloads (Keep only filtered L9 files) ---
+mobilis.zip
+mobilis_L9.zip
+gtfs_pt_vehicles.add.xml
+osm.net.xml.gz
+osm.poly.xml.gz
+osm_bbox.osm.xml
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp

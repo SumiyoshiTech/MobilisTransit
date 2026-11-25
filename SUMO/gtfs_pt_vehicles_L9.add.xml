@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <route id="1010-1-001-XJA1-U-07h10-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 775419027#3 144558081#0 144558081#1 144558081#2 1470396030 176063197#0 176063197#1 517716085 144558084#1 698133510 175877191 1387776161 270504354 687410581 1313564081 1470395449 995951303#1 995951303#2 1111824251#0 1111824251#1 38549699#0 38549699#1 144558086#0 144558086#2 144558086#3 736259307 888050671#0 888050671#1 888050671#2 1387775653#1 1387775653#2 1387775653#3 1387775720 22927998#1 22927998#2 1387775722#1 147686417#0 147686417#1 -1387782975 -718023864#3 -718023864#2 -718023864#1 -718023864#0 -717653150 1387782420 717653154 1387790260#0 1387790260#1 258110253#1 258110253#2 -687410581 687410581 1313564081 1470395449 175877010#0 270504355#1 270504355#2 270504355#3 270504355#5 270504355#6 728704272 1288626970 787313046 38461825 762753331 175877162#0 175877162#1 697428526#0 697428526#1 697428526#3 38461837 713181359 713181358#0 713181358#1 713181358#2 713181358#3 713181358#4 713181358#5 713181358#6 175877463#0 1111650806 1337943516#0 1337943516#1 1337943517#1 22928013 1337943596 875568944#1 1068949284 1352365230#0 1352365230#1 540868260#1 540868260#2 516896677 95384896 728852856 728209795 875568942#0 875568942#1 875568942#2 1068949285 1119061531#0 1119061531#1 1119061531#2 93627036#0 93627036#1 93627036#2 93627036#3 926481024#0 926481024#1 926481024#2 926481024#3 139195439 705196003#0 705196003#1 -705196003#1 -705196003#0 705196001 93626996#1 60939827#0 60939827#1 60939827#2 60939827#3 278025368#0 278025368#1 875568943 23592134 728209796 1352364206 1352364231#0 1352364231#1 875568945 875568944#0 875568944#1 270159754 -928722692 -928722694 -699520057 -270159757 -792763918 -677767659 -728706385#0 -713181371#1 -713181371#0 -686693358#1 -686693358#0 -1026104494#1 -1026104494#0 686693359#0 686693359#1 -1026104495 -686693360 -650122888#2 682926168#0 -270159751#1 -270159751#0 -673247215 -673247217 -682926167#1 -682926167#0 677762926 705519309#1 425372714#0 425372714#1 425372714#2 425372714#3 425372714#4 425372714#5 425372714#6 425372714#7 425378654#1 175877220 1070323176 175876998 733616003#0 733616003#1 733616004#0 733616004#1 951314477 731786313#0 731786313#2 731786313#3 -733616006#2 -733616006#1 -733616006#0 -1219566378 -1034866104 -166576361 733616005 1070340173 540875124#0 540875124#1 1070323174 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2 107382846#3 733059830#1 733059830#2 805921563#0 805921563#1 805921563#2 805921562#0 805921562#1 805921562#2">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="79" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="157" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.3" duration="10" until="252" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.4" duration="10" until="344" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.5" duration="10" until="425" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.6" duration="10" until="511" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.7" duration="10" until="640" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.8" duration="10" until="723" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.9" duration="10" until="814" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.10" duration="10" until="890" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.11" duration="10" until="963" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.12" duration="10" until="1357" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.13" duration="10" until="1440" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.14" duration="10" until="1528" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.15" duration="10" until="1728" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.16" duration="10" until="1815" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.17" duration="10" until="1888" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.18" duration="10" until="1997" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.19" duration="10" until="2048" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.20" duration="10" until="2170" /> 
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="2400" /> 
+        <stop busStop="gtfs_lra_0096" duration="10" until="0" /> 
+        <stop busStop="gtfs_lra_2014" duration="10" until="79" /> 
+        <stop busStop="gtfs_lra_0042" duration="10" until="157" /> 
+        <stop busStop="gtfs_lra_0039" duration="10" until="252" /> 
+        <stop busStop="gtfs_lra_2025" duration="10" until="344" /> 
+        <stop busStop="gtfs_lra_0065" duration="10" until="425" /> 
+        <stop busStop="gtfs_lra_0068" duration="10" until="511" /> 
+        <stop busStop="gtfs_lra_0066" duration="10" until="640" /> 
+        <stop busStop="gtfs_lra_0254" duration="10" until="723" /> 
+        <stop busStop="gtfs_lra_2026" duration="10" until="814" /> 
+        <stop busStop="gtfs_lra_0079" duration="10" until="890" /> 
+        <stop busStop="gtfs_lra_2029" duration="10" until="963" /> 
+        <stop busStop="gtfs_lra_0156" duration="10" until="1357" /> 
+        <stop busStop="gtfs_lra_0064" duration="10" until="1440" /> 
+        <stop busStop="gtfs_lra_2043" duration="10" until="1528" /> 
+        <stop busStop="gtfs_lra_2031" duration="10" until="1728" /> 
+        <stop busStop="gtfs_lra_2033" duration="10" until="1815" /> 
+        <stop busStop="gtfs_lra_2038" duration="10" until="1888" /> 
+        <stop busStop="gtfs_lra_2039" duration="10" until="1997" /> 
+        <stop busStop="gtfs_lra_2041" duration="10" until="2048" /> 
+        <stop busStop="gtfs_lra_0044" duration="10" until="2170" /> 
+        <stop busStop="gtfs_lra_0096" duration="10" until="2400" /> 
     </route>
     <vehicle id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" route="1010-1-001-XJA1-U-07h10-AvBernardoPimen" type="bus" depart="25790" line="9">
         <param key="gtfs.route_name" value="9" />

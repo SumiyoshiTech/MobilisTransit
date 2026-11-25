@@ -1,385 +1,386 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-11-21 19:49:54.804915 by Eclipse SUMO gtfs2pt.py v1_28_0+0000-daf91b55789
+<!-- generated on 2026-11-25 17:17:51.359224 by Eclipse SUMO gtfs2pt.py v1_28_0+0000-daf91b55789
 <configuration>
     <gtfs value="mobilis.zip"/>
     <date value="20261123"/>
     <modes value="bus"/>
     <vtype-output value="pt_vtypes.xml"/>
     <network value="leiria.net.xml.gz"/>
+    <use-gtfs-stopids value="True"/>
 </configuration>
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <route id="1010-1-001-XJA1-U-07h10-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 775419027#3 144558081#0 144558081#1 144558081#2 1470396030 176063197#0 176063197#1 517716085 144558084#1 698133510 175877191 1387776161 270504354 687410581 1313564081 1470395449 995951303#1 995951303#2 1111824251#0 1111824251#1 38549699#0 38549699#1 144558086#0 144558086#2 144558086#3 736259307 888050671#0 888050671#1 888050671#2 1387775653#1 1387775653#2 1387775653#3 1387775720 22927998#1 22927998#2 1387775722#1 147686417#0 147686417#1 -1387782975 -718023864#3 -718023864#2 -718023864#1 -718023864#0 -717653150 1387782420 717653154 1387790260#0 1387790260#1 258110253#1 258110253#2 -687410581 687410581 1313564081 1470395449 175877010#0 270504355#1 270504355#2 270504355#3 270504355#5 270504355#6 728704272 1288626970 787313046 38461825 762753331 175877162#0 175877162#1 697428526#0 697428526#1 697428526#3 38461837 713181359 713181358#0 713181358#1 713181358#2 713181358#3 713181358#4 713181358#5 713181358#6 175877463#0 1111650806 1337943516#0 1337943516#1 1337943517#1 22928013 1337943596 875568944#1 1068949284 1352365230#0 1352365230#1 540868260#1 540868260#2 516896677 95384896 728852856 728209795 875568942#0 875568942#1 875568942#2 1068949285 1119061531#0 1119061531#1 1119061531#2 93627036#0 93627036#1 93627036#2 93627036#3 926481024#0 926481024#1 926481024#2 926481024#3 139195439 705196003#0 705196003#1 -705196003#1 -705196003#0 705196001 93626996#1 60939827#0 60939827#1 60939827#2 60939827#3 278025368#0 278025368#1 875568943 23592134 728209796 1352364206 1352364231#0 1352364231#1 875568945 875568944#0 875568944#1 270159754 -928722692 -928722694 -699520057 -270159757 -792763918 -677767659 -728706385#0 -713181371#1 -713181371#0 -686693358#1 -686693358#0 -1026104494#1 -1026104494#0 686693359#0 686693359#1 -1026104495 -686693360 -650122888#2 682926168#0 -270159751#1 -270159751#0 -673247215 -673247217 -682926167#1 -682926167#0 677762926 705519309#1 425372714#0 425372714#1 425372714#2 425372714#3 425372714#4 425372714#5 425372714#6 425372714#7 425378654#1 175877220 1070323176 175876998 733616003#0 733616003#1 733616004#0 733616004#1 951314477 731786313#0 731786313#2 731786313#3 -733616006#2 -733616006#1 -733616006#0 -1219566378 -1034866104 -166576361 733616005 1070340173 540875124#0 540875124#1 1070323174 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2 107382846#3 733059830#1 733059830#2 805921563#0 805921563#1 805921563#2 805921562#0 805921562#1 805921562#2">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="79"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="157"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.3" duration="10" until="252"/> <!-- Fonte das 3 Bicas -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.4" duration="10" until="344"/> <!-- Largo Santo Agostinho -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.5" duration="10" until="425"/> <!-- Av. General Humberto Delgado 1 -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.6" duration="10" until="511"/> <!-- Av. General Humberto Delgado 2 -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.7" duration="10" until="640"/> <!-- Av. N. S. Fátima -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.8" duration="10" until="723"/> <!-- Av. N. S. Fátima / Sra. da Encarnação -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.9" duration="10" until="814"/> <!-- Av. Marquês de Pombal -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.10" duration="10" until="890"/> <!-- Bairro dos Sargentos -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.11" duration="10" until="963"/> <!-- Centro De Saúde Gorjão Henriques / Residências IPL -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.12" duration="10" until="1357"/> <!-- Rua Qta. Do Seminário (Centro Comercial) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.13" duration="10" until="1440"/> <!-- Campus 2 IPL -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.14" duration="10" until="1528"/> <!-- Rotunda Alto do Vieiro -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.15" duration="10" until="1728"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.16" duration="10" until="1815"/> <!-- Câmara Municipal / ESEL -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.17" duration="10" until="1888"/> <!-- Bairro dos Capuchos -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.18" duration="10" until="1997"/> <!-- Esc. Domingos Sequeira -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.19" duration="10" until="2048"/> <!-- Av. 25 De Abril -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.20" duration="10" until="2170"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="2400"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="79"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="157"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0039" duration="10" until="252"/> <!-- Fonte das 3 Bicas -->
+        <stop busStop="gtfs_lra_2025" duration="10" until="344"/> <!-- Largo Santo Agostinho -->
+        <stop busStop="gtfs_lra_0065" duration="10" until="425"/> <!-- Av. General Humberto Delgado 1 -->
+        <stop busStop="gtfs_lra_0068" duration="10" until="511"/> <!-- Av. General Humberto Delgado 2 -->
+        <stop busStop="gtfs_lra_0066" duration="10" until="640"/> <!-- Av. N. S. Fátima -->
+        <stop busStop="gtfs_lra_0254" duration="10" until="723"/> <!-- Av. N. S. Fátima / Sra. da Encarnação -->
+        <stop busStop="gtfs_lra_2026" duration="10" until="814"/> <!-- Av. Marquês de Pombal -->
+        <stop busStop="gtfs_lra_0079" duration="10" until="890"/> <!-- Bairro dos Sargentos -->
+        <stop busStop="gtfs_lra_2029" duration="10" until="963"/> <!-- Centro De Saúde Gorjão Henriques / Residências IPL -->
+        <stop busStop="gtfs_lra_0156" duration="10" until="1357"/> <!-- Rua Qta. Do Seminário (Centro Comercial) -->
+        <stop busStop="gtfs_lra_0064" duration="10" until="1440"/> <!-- Campus 2 IPL -->
+        <stop busStop="gtfs_lra_2043" duration="10" until="1528"/> <!-- Rotunda Alto do Vieiro -->
+        <stop busStop="gtfs_lra_2031" duration="10" until="1728"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
+        <stop busStop="gtfs_lra_2033" duration="10" until="1815"/> <!-- Câmara Municipal / ESEL -->
+        <stop busStop="gtfs_lra_2038" duration="10" until="1888"/> <!-- Bairro dos Capuchos -->
+        <stop busStop="gtfs_lra_2039" duration="10" until="1997"/> <!-- Esc. Domingos Sequeira -->
+        <stop busStop="gtfs_lra_2041" duration="10" until="2048"/> <!-- Av. 25 De Abril -->
+        <stop busStop="gtfs_lra_0044" duration="10" until="2170"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="2400"/> <!-- Av. Bernardo Pimenta (Estádio) -->
     </route>
     <route id="1011-1-001-A-U-06h40-AvBernardoPimen" edges="-1387497498 50993609#0 50993609#1 50993609#2 50993609#3 50993609#4 50993609#5 23600630#1 1387503532#0 1387503532#1 1387503533#1 1387503171 1387501510 1387501511#1 175877119 267027522#0 267027522#1 175877123 51537111 967422116 777152453 1387497187 730238892 23600631 888011197 144802554 805903102 107382853#0 107382853#1 107382853#2 805921563#0 805921563#1 805921563#2 805921562#0 805921562#1 805921562#2 805921562#3 805921562#4 805921562#5 107382850 1034866104 1219566378 733616006#0 733616006#1 733616006#2 175876997#0 175876997#1 731786314#0 731786314#1 733059825#1 733059825#2 888034869#0 888034869#1 888034869#2 175877222 -1343272987#1 -1343272987#0 -18472287 687410582 1070323206 1070340174 1070323178#0 1070323178#1 888034873#0 888034873#1 1352373388#0 1352373388#1 530723188 530723189#0 530723189#1 530723189#2 1331979389#0 1331979389#1 729372356 888034874 425372716 682926167#0 682926167#1 673247217 673247215 270159751#0 270159751#1 705519301#0 650122888#0 686693360 1026104495 1026104496 1026104501 1092193125#0 1092193125#1 1026104498 1026104494#0 1026104494#1 686693358#0 686693358#1 713181371#0 713181371#1 1352366050 677767659 792763918 270159757 699520057 928722694 928722692 686693354 1352365230#0 1352365230#1 540868260#1 540868260#2 516896677 95384896 728852856 728209795 875568942#0 875568942#1 875568942#2 1068949285 1119061531#0 1119061531#1 1119061531#2 93627036#0 93627036#1 93627036#2 93627036#3 926481024#0 926481024#1 926481024#2 926481024#3 139195439 705196003#0 705196003#1 -705196003#1 -705196003#0 705196001 93626996#1 60939827#0 60939827#1 60939827#2 60939827#3 278025368#0 278025368#1 875568943 23592134 728209796 1352364206 1352364231#0 1352364231#1 875568945 270463091#0 270463091#1 270463092 144635080 728709396 762753334#0 762753334#1 175877196 175877175#0 175877175#1 175877175#2 175877175#3 175877175#4 175877175#5 175877175#6 175877175#7 175877175#9 175877175#10 175877175#11 175877175#12 175877175#14 175877175#16 175877175#18 175877175#19 175877175#20 696751087#0 696751087#1 -696751087#1 -696751087#0 -175877175#20 -175877175#19 -175877175#18 -175877175#16 -175877175#14 -175877175#12 -175877175#11 -175877175#10 -175877175#9 -175877175#7 -175877175#6 -175877175#5 -175877175#4 -175877175#3 -175877175#2 -175877175#1 -175877175#0 175877201 888044829 762753336 544813862#0 544813862#1 544813862#2 762753333 888044830 144635075 1111650807 1111650808 888044832 175877439#0 175877439#1 -713181358#6 -713181358#5 -713181358#4 -713181358#3 -713181358#2 -713181358#1 -713181358#0 -713181359 -38461837 -697428526#3 -697428526#1 -697428526#0 175877156 762753332 175877009 1470394356 517716074#1 517716074#2 1470395159#1 517716072 1470395227#0 995951303#1 995951303#2 1111824251#0 1111824251#1 38549699#0 38549699#1 144558086#0 144558086#2 144558086#3 736259307 888050671#0 888050671#1 888050671#2 1387775653#1 1387775653#2 1387775653#3 1117268454 38552643#0 38552643#1 1117268453 1117268452#0 705525133 888050673 -705525128#1 -705525127#1 -705525127#0 -517716034 102148768#1 517716031 888437221#0 888437221#1 888437221#2 888437221#3 888437221#4 888437221#5 -246818075#1 -246818075#0 267588215 -119645617 62225639#0 -888437222 -119645619#1 -119645619#0 -888437227 888437231#0 888437231#1 888437231#2 971169468 971169469#0 971169469#1 102148802#0 102148802#1 604620404#0 604620404#1 888821814 1387795239#1 38569817 427619721 42704680 604621044 740043958 427619724 858780518#0 858780518#1 858780519 733339861 733339862#0 733339862#1 733339862#2 888442316#0 888442316#1 -888442316#1 -888442316#0 -733339862#2 -733339862#1 -733339862#0 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 258548300 -102148772#1 38569822 604620401#0 604620401#3 604620401#4 838924823 175877226 776872442#0 175877179 38465043#0 38465043#1 38465043#3 38465043#4 175877300 647242666 -888442316#1 -888442316#0 -733339862#2 -733339862#1 -733339862#0 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 258548300 -102148772#1 38569822 604620401#0 604620401#3 604620401#4 838924823 175877226 776872442#0 776872442#1 1387797323#1 175877203 1387811508 144558088#0 144558088#1 144558088#2 1387811509#1 144629790 144945184#0 144945184#1 144945184#2 814438487#1 814438487#2 144945167 888442320 175877166 -809868211#2 -809868211#1 -809868211#0 -23591885#4 -23591885#2 -23591885#1 -23591885#0 175877373 809862695 144825185#0 144825185#1 872758403 686731037 108151913#0 108151913#1 1249473023 739868624#0 739868624#1 739868624#3 739868624#4 739868624#5 739868624#6 739867398#0 739867398#1 739867398#2 739867398#3 1223944380#0 144825180#0 144825180#1 144825180#2 1354382546#1 1354382546#2 262085718 772026457 175876999 -733616011 -166576346 262080580 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2 107382846#3 733059830#1 733059830#2 805921563#0 805921563#1 805921563#2 805921562#0 805921562#1 805921562#2">
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.9" duration="10" until="0"/> <!-- Estação -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.10" duration="10" until="80"/> <!-- Estrada da Estação -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.11" duration="10" until="122"/> <!-- Bairro das Almoínhas -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.12" duration="10" until="331"/> <!-- Estádio Magalhães Pessoa -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="394"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.14" duration="10" until="553"/> <!-- Av. 25 De Abril -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.15" duration="10" until="689"/> <!-- Av. Papa Francisco -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.16" duration="10" until="741"/> <!-- Bairro dos Capuchos -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.17" duration="10" until="799"/> <!-- Câmara Municipal / ESEL -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.18" duration="10" until="900"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.12" duration="10" until="1118"/> <!-- Rua Qta. Do Seminário (Centro Comercial) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.13" duration="10" until="1189"/> <!-- Campus 2 IPL -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.14" duration="10" until="1293"/> <!-- Rotunda Alto do Vieiro -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.22" duration="10" until="1824"/> <!-- Escola José Saraiva -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.23" duration="10" until="1970"/> <!-- Rua da Malaposta -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.24" duration="10" until="2039"/> <!-- Prisão Escola -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.25" duration="10" until="2182"/> <!-- Centro De Saúde Gorjão Henriques / Residências IPL -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.26" duration="10" until="2256"/> <!-- Bairro dos Sargentos -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.27" duration="10" until="2315"/> <!-- Av. Marquês de Pombal -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.5" duration="10" until="2366"/> <!-- Av. General Humberto Delgado 1 -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.6" duration="10" until="2443"/> <!-- Av. General Humberto Delgado 2 -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.30" duration="10" until="2530"/> <!-- Guimarota -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.31" duration="10" until="2636"/> <!-- Escola Profissional / ISLA -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.32" duration="10" until="2713"/> <!-- São Romão / Rua Florentino Pedro Lopes -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.33" duration="10" until="2824"/> <!-- São Romão / Rua da Fonte -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.34" duration="10" until="2864"/> <!-- São Romão / Rua Esperança CETL -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.35" duration="10" until="3074"/> <!-- Hospital (Visitas) -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.36" duration="10" until="3180"/> <!-- Hospital (Consultas Externas) -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.37" duration="10" until="3252"/> <!-- Escola Correia Mateus -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.38" duration="10" until="3286"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.39" duration="10" until="3363"/> <!-- Rua de Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.40" duration="10" until="3402"/> <!-- Rua das Olhalvas -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.41" duration="10" until="3425"/> <!-- Bombeiros Municipais -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.42" duration="10" until="3459"/> <!-- Ponte Hintze Ribeiro -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.43" duration="10" until="3574"/> <!-- Jardim Luís de Camões -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.44" duration="10" until="3630"/> <!-- Rua Dr. Américo Cortez Pinto -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.45" duration="10" until="3759"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="3914"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_2066" duration="10" until="0"/> <!-- Estação -->
+        <stop busStop="gtfs_lra_0198" duration="10" until="80"/> <!-- Estrada da Estação -->
+        <stop busStop="gtfs_lra_2074" duration="10" until="122"/> <!-- Bairro das Almoínhas -->
+        <stop busStop="gtfs_lra_0098" duration="10" until="331"/> <!-- Estádio Magalhães Pessoa -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="394"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_2040" duration="10" until="553"/> <!-- Av. 25 De Abril -->
+        <stop busStop="gtfs_lra_2076" duration="10" until="689"/> <!-- Av. Papa Francisco -->
+        <stop busStop="gtfs_lra_2036" duration="10" until="741"/> <!-- Bairro dos Capuchos -->
+        <stop busStop="gtfs_lra_2032" duration="10" until="799"/> <!-- Câmara Municipal / ESEL -->
+        <stop busStop="gtfs_lra_2030" duration="10" until="900"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
+        <stop busStop="gtfs_lra_0156" duration="10" until="1118"/> <!-- Rua Qta. Do Seminário (Centro Comercial) -->
+        <stop busStop="gtfs_lra_0064" duration="10" until="1189"/> <!-- Campus 2 IPL -->
+        <stop busStop="gtfs_lra_2043" duration="10" until="1293"/> <!-- Rotunda Alto do Vieiro -->
+        <stop busStop="gtfs_lra_2055" duration="10" until="1824"/> <!-- Escola José Saraiva -->
+        <stop busStop="gtfs_lra_0154" duration="10" until="1970"/> <!-- Rua da Malaposta -->
+        <stop busStop="gtfs_lra_0130" duration="10" until="2039"/> <!-- Prisão Escola -->
+        <stop busStop="gtfs_lra_0081" duration="10" until="2182"/> <!-- Centro De Saúde Gorjão Henriques / Residências IPL -->
+        <stop busStop="gtfs_lra_0077" duration="10" until="2256"/> <!-- Bairro dos Sargentos -->
+        <stop busStop="gtfs_lra_2027" duration="10" until="2315"/> <!-- Av. Marquês de Pombal -->
+        <stop busStop="gtfs_lra_0065" duration="10" until="2366"/> <!-- Av. General Humberto Delgado 1 -->
+        <stop busStop="gtfs_lra_0068" duration="10" until="2443"/> <!-- Av. General Humberto Delgado 2 -->
+        <stop busStop="gtfs_lra_0070" duration="10" until="2530"/> <!-- Guimarota -->
+        <stop busStop="gtfs_lra_2016" duration="10" until="2636"/> <!-- Escola Profissional / ISLA -->
+        <stop busStop="gtfs_lra_0241" duration="10" until="2713"/> <!-- São Romão / Rua Florentino Pedro Lopes -->
+        <stop busStop="gtfs_lra_0074" duration="10" until="2824"/> <!-- São Romão / Rua da Fonte -->
+        <stop busStop="gtfs_lra_0245" duration="10" until="2864"/> <!-- São Romão / Rua Esperança CETL -->
+        <stop busStop="gtfs_lra_0228" duration="10" until="3074"/> <!-- Hospital (Visitas) -->
+        <stop busStop="gtfs_lra_0133" duration="10" until="3180"/> <!-- Hospital (Consultas Externas) -->
+        <stop busStop="gtfs_lra_2020" duration="10" until="3252"/> <!-- Escola Correia Mateus -->
+        <stop busStop="gtfs_lra_2022" duration="10" until="3286"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_0135" duration="10" until="3363"/> <!-- Rua de Santo André -->
+        <stop busStop="gtfs_lra_0204" duration="10" until="3402"/> <!-- Rua das Olhalvas -->
+        <stop busStop="gtfs_lra_0050" duration="10" until="3425"/> <!-- Bombeiros Municipais -->
+        <stop busStop="gtfs_lra_2013" duration="10" until="3459"/> <!-- Ponte Hintze Ribeiro -->
+        <stop busStop="gtfs_lra_0041" duration="10" until="3574"/> <!-- Jardim Luís de Camões -->
+        <stop busStop="gtfs_lra_0104" duration="10" until="3630"/> <!-- Rua Dr. Américo Cortez Pinto -->
+        <stop busStop="gtfs_lra_0108" duration="10" until="3759"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="3914"/> <!-- Av. Bernardo Pimenta (Estádio) -->
     </route>
     <route id="1011-1-031-AX2431-U-25h20-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 540875124#0 540875124#1 1070323174 888011195 540875125 262086644#0 262086644#1 144795272#1 175877264 872758405 23644801#0 23644801#1 175877342 442034778 1036889062 1036889063 963617552#0 963617552#2 963617552#3 963617552#4 963617552#5 963617552#7 886815502 886815505 886815508 886815501 886815506 886815503 175877422 733059831#0 733059831#1 888011196 718025455 -730238892 -777152455 -777152453 -967422116 -51537111 175877125 772276091#0 772276091#1 772276091#2 772276091#3 175877122 -1387501511#1 -1387501511#0 -1387502424#0 -1387503387 -1387503533#0 -1387503532#0 -23600630#1 -23600630#0 888011201#0 888011201#1 -888011201#1">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.1" duration="10" until="108"/> <!-- Arrabalde da Ponte -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.2" duration="10" until="128"/> <!-- Nova Leiria -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.3" duration="10" until="202"/> <!-- Almoínha Grande -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.4" duration="10" until="372"/> <!-- Bairro das Almoínhas -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.5" duration="10" until="427"/> <!-- Estrada da Estação -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.6" duration="10" until="463"/> <!-- Rua João de Deus -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_0110" duration="10" until="108"/> <!-- Arrabalde da Ponte -->
+        <stop busStop="gtfs_lra_2048" duration="10" until="128"/> <!-- Nova Leiria -->
+        <stop busStop="gtfs_lra_0116" duration="10" until="202"/> <!-- Almoínha Grande -->
+        <stop busStop="gtfs_lra_2065" duration="10" until="372"/> <!-- Bairro das Almoínhas -->
+        <stop busStop="gtfs_lra_0197" duration="10" until="427"/> <!-- Estrada da Estação -->
+        <stop busStop="gtfs_lra_0214" duration="10" until="463"/> <!-- Rua João de Deus -->
     </route>
     <route id="1012-1-001-A-U-06h50-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 775419027#3 144558081#0 144558081#1 144558081#2 1470396030 726152091#1 726152092 -1387811509#1 -1387811509#0 -144558088#1 -144558088#0 -1387811508 175877202 1387797321#0 1387797321#1 1387797322#1 1387797322#2 888821816 776872442#0 175877179 38465043#0 38465043#1 38465043#3 38465043#4 175877300 647242666 -888442316#1 -888442316#0 -733339862#2 -733339862#1 -733339862#0 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 258548300 -102148772#1 38569822 604620401#0 604620401#3 604620401#4 838924823 175877226 776872442#0 175877179 38465043#0 38465043#1 38465043#3 38465043#4 175877300 647242666 -888442316#1 -888442316#0 -733339862#2 -733339862#1 -733339862#0 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 258548300 -427619721 42704681 888442318 888821815 888437233#0 22927996 1387795090#1 175877011#1 1387794670 971169466#0 971169466#1 971169467 -888437231#2 -888437231#1 -888437231#0 888437227 119645619#0 119645619#1 888437223 888437229 267588216#1 267588216#2 267588216#3 267588216#4 267588216#5 888050675 -102148768#1 -102148768#0 705525127#0 705525127#1 705525128#1 686355378 265349386#0 265349386#1 265349386#2 1387794452 22927998#1 22927998#2 1387775722#1 147686417#0 147686417#1 -1387782975 -718023864#3 -718023864#2 -718023864#1 -718023864#0 -717653150 1387782420 717653154 1387790260#0 1387790260#1 258110253#1 258110253#2 -687410581 687410581 1313564081 1470395449 175877010#0 270504355#1 270504355#2 270504355#3 270504355#5 270504355#6 728704272 1288626970 787313046 38461825 762753331 175877162#0 175877162#1 697428526#0 697428526#1 697428526#3 38461837 713181359 713181358#0 713181358#1 713181358#2 713181358#3 713181358#4 713181358#5 713181358#6 175877463#0 1111650806 1337943516#0 1337943516#1 1337943517#1 22928013 1337943596 875568944#1 1068949284 1352365230#0 1352365230#1 540868260#1 540868260#2 516896677 95384896 728852856 728209795 875568942#0 875568942#1 875568942#2 1068949285 1119061531#0 1119061531#1 1119061531#2 93627036#0 93627036#1 93627036#2 93627036#3 926481024#0 926481024#1 926481024#2 926481024#3 139195439 705196003#0 705196003#1 -705196003#1 -705196003#0 705196001 93626996#1 60939827#0 60939827#1 60939827#2 60939827#3 278025368#0 278025368#1 875568943 23592134 728209796 1352364206 1352364231#0 1352364231#1 875568945 875568944#0 875568944#1 270159754 -928722692 -928722694 -699520057 -270159757 -792763918 -677767659 -728706385#0 -713181371#1 -713181371#0 -686693358#1 -686693358#0 -1026104494#1 -1026104494#0 686693359#0 686693359#1 -1026104495 -686693360 -650122888#2 682926168#0 -270159751#1 -270159751#0 -673247215 1470396964 1163033433#0 1163033433#1 1163033434#3 1470396974 1470397119 38461713#0 38461713#1 -38461713#1 -38461713#0 -1470397119 -1470396974 1163033434#4 1163033434#1 1163033434#2 -1163033433#1 -1163033433#0 -1470396964 -673247217 -682926167#1 -682926167#0 677762926 705519309#1 425372714#0 425372714#1 425372714#2 425372714#3 425372714#4 425372714#5 425372714#6 425372714#7 425378654#1 175877220 1070323176 175876998 733616003#0 733616003#1 733616004#0 733616004#1 951314477 731786313#0 731786313#2 731786313#3 -733616006#2 -733616006#1 -733616006#0 -1219566378 -1034866104 -166576361 733616005 1070340173 540875124#0 540875124#1 1070323174 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2 107382846#3 733059830#1 107382849#0 107382849#1 107382849#2 267028460#1 144802552 872758407#1 23600500#0 23600500#1 23600500#2 733059831#0 733059831#1 888011196 718025455 -730238892 -777152455 -777152453 -967422116 -51537111 175877125 772276091#0 772276091#1 772276091#2 772276091#3 175877122 -1387501511#1 -1387501511#0 -1387502424#0 -1387503387 -1387503533#0 -1387503532#0 -23600630#1 -23600630#0 888011201#0 888011201#1 -888011201#1">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="215"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="305"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.3" duration="10" until="415"/> <!-- Fonte das 3 Bicas -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.4" duration="10" until="525"/> <!-- Ponte Hintze Ribeiro -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.5" duration="10" until="590"/> <!-- Bombeiros Municipais -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.35" duration="10" until="840"/> <!-- Hospital (Visitas) -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.36" duration="10" until="975"/> <!-- Hospital (Consultas Externas) -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.37" duration="10" until="1065"/> <!-- Escola Correia Mateus -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.38" duration="10" until="1105"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.10" duration="10" until="1285"/> <!-- São Romão / Rua Esperança CETL -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.11" duration="10" until="1330"/> <!-- São Romão / Rua da Fonte -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.12" duration="10" until="1410"/> <!-- São Romão Rua Cor. Pereira Pascoal -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.13" duration="10" until="1480"/> <!-- Guimarota -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.7" duration="10" until="1555"/> <!-- Av. N. S. Fátima -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.8" duration="10" until="1620"/> <!-- Av. N. S. Fátima / Sra. da Encarnação -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.9" duration="10" until="1740"/> <!-- Av. Marquês de Pombal -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.10" duration="10" until="1822"/> <!-- Bairro dos Sargentos -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.11" duration="10" until="1912"/> <!-- Centro De Saúde Gorjão Henriques / Residências IPL -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.12" duration="10" until="2310"/> <!-- Rua Qta. Do Seminário (Centro Comercial) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.13" duration="10" until="2400"/> <!-- Campus 2 IPL -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.14" duration="10" until="2477"/> <!-- Rotunda Alto do Vieiro -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.15" duration="10" until="2611"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.16" duration="10" until="2669"/> <!-- Câmara Municipal / ESEL -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.24" duration="10" until="2759"/> <!-- Rua Cidade de Tokushima -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.17" duration="10" until="2827"/> <!-- Bairro dos Capuchos -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.18" duration="10" until="2913"/> <!-- Esc. Domingos Sequeira -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.19" duration="10" until="2947"/> <!-- Av. 25 De Abril -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.20" duration="10" until="3029"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.29" duration="10" until="3120"/> <!-- Av. Bernardo Pimenta (Terminal) -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.30" duration="10" until="3192"/> <!-- Estádio Magalhães Pessoa -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.4" duration="10" until="3433"/> <!-- Bairro das Almoínhas -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.5" duration="10" until="3493"/> <!-- Estrada da Estação -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.6" duration="10" until="3533"/> <!-- Rua João de Deus -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="215"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="305"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0039" duration="10" until="415"/> <!-- Fonte das 3 Bicas -->
+        <stop busStop="gtfs_lra_2019" duration="10" until="525"/> <!-- Ponte Hintze Ribeiro -->
+        <stop busStop="gtfs_lra_0037" duration="10" until="590"/> <!-- Bombeiros Municipais -->
+        <stop busStop="gtfs_lra_0228" duration="10" until="840"/> <!-- Hospital (Visitas) -->
+        <stop busStop="gtfs_lra_0133" duration="10" until="975"/> <!-- Hospital (Consultas Externas) -->
+        <stop busStop="gtfs_lra_2020" duration="10" until="1065"/> <!-- Escola Correia Mateus -->
+        <stop busStop="gtfs_lra_2022" duration="10" until="1105"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_0244" duration="10" until="1285"/> <!-- São Romão / Rua Esperança CETL -->
+        <stop busStop="gtfs_lra_0073" duration="10" until="1330"/> <!-- São Romão / Rua da Fonte -->
+        <stop busStop="gtfs_lra_0072" duration="10" until="1410"/> <!-- São Romão Rua Cor. Pereira Pascoal -->
+        <stop busStop="gtfs_lra_0071" duration="10" until="1480"/> <!-- Guimarota -->
+        <stop busStop="gtfs_lra_0066" duration="10" until="1555"/> <!-- Av. N. S. Fátima -->
+        <stop busStop="gtfs_lra_0254" duration="10" until="1620"/> <!-- Av. N. S. Fátima / Sra. da Encarnação -->
+        <stop busStop="gtfs_lra_2026" duration="10" until="1740"/> <!-- Av. Marquês de Pombal -->
+        <stop busStop="gtfs_lra_0079" duration="10" until="1822"/> <!-- Bairro dos Sargentos -->
+        <stop busStop="gtfs_lra_2029" duration="10" until="1912"/> <!-- Centro De Saúde Gorjão Henriques / Residências IPL -->
+        <stop busStop="gtfs_lra_0156" duration="10" until="2310"/> <!-- Rua Qta. Do Seminário (Centro Comercial) -->
+        <stop busStop="gtfs_lra_0064" duration="10" until="2400"/> <!-- Campus 2 IPL -->
+        <stop busStop="gtfs_lra_2043" duration="10" until="2477"/> <!-- Rotunda Alto do Vieiro -->
+        <stop busStop="gtfs_lra_2031" duration="10" until="2611"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
+        <stop busStop="gtfs_lra_2033" duration="10" until="2669"/> <!-- Câmara Municipal / ESEL -->
+        <stop busStop="gtfs_lra_0160" duration="10" until="2759"/> <!-- Rua Cidade de Tokushima -->
+        <stop busStop="gtfs_lra_2038" duration="10" until="2827"/> <!-- Bairro dos Capuchos -->
+        <stop busStop="gtfs_lra_2039" duration="10" until="2913"/> <!-- Esc. Domingos Sequeira -->
+        <stop busStop="gtfs_lra_2041" duration="10" until="2947"/> <!-- Av. 25 De Abril -->
+        <stop busStop="gtfs_lra_0044" duration="10" until="3029"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
+        <stop busStop="gtfs_lra_2042" duration="10" until="3120"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_0100" duration="10" until="3192"/> <!-- Estádio Magalhães Pessoa -->
+        <stop busStop="gtfs_lra_2065" duration="10" until="3433"/> <!-- Bairro das Almoínhas -->
+        <stop busStop="gtfs_lra_0197" duration="10" until="3493"/> <!-- Estrada da Estação -->
+        <stop busStop="gtfs_lra_0214" duration="10" until="3533"/> <!-- Rua João de Deus -->
     </route>
     <route id="1013-1-001-A-U-06h20-PontedaPedraXMa" edges="308758569#0 308758569#1 722712941 902473289#0 902473289#1 -722712935#1 783219942 783219943 -759412427#3 -759412427#1 759412427#0 -51536589#2 -51536589#0 906726030 906726029#0 906726029#1 906726029#2 906726029#3 906726029#4 -1036889063 -1036889062 -442034778 175877285 772026455#1 772026455#2 872758406#0 175877319 -144795272#1 -144795272#0 -262086644#0 144795277 1070323207#1 1337256016 107382846#0 107382846#2 107382846#3 733059830#1 733059830#2 805921563#0 805921563#1 805921563#2 805921562#0 805921562#1 805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 1354384620#0 1354384620#1 1354384794 1354384796 677557372#0 677557372#1 677557369#0 677557369#1 -686704771#0 -686704770 -270159745#1 -270159745#0 -144843935 -144843934#1 -144843934#0 697881537 776872433#0 776872433#1 762753331 175877162#0 175877162#1 697428526#0 697428526#1 697428526#3 697428525#0 697428525#1 697428525#2 697428525#4 697428525#5 741976862#0 741976862#1 1576660774#1 175877160 888044830 888044826#0 888044826#1 762753334#0 762753334#1 888044827 888044829 762753335 -535287021#26 -535287021#25 -535287021#24 -535287021#23 -535287021#22 -535287021#21 -535287021#20 -535287021#19 -535287021#18 -535287021#17 -535287021#16 -535287021#14 218573253 493041509#0 493041509#1 493041509#2 493041509#3 493041509#4 493041509#5 493041509#6 493041509#8 493041509#10 493041509#11 -493041509#11 218573261#0 218573261#1 -535287021#3 -535287021#1">
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.1" duration="10" until="0"/> <!-- Rua 20 De Junho / Igreja Marinheiros -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.2" duration="10" until="180"/> <!-- Estrada Dos Marinheiros / X Travessa Oliveiras -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.3" duration="10" until="295"/> <!-- Quinta do Bispo / Instituto Seg. Social -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.4" duration="10" until="355"/> <!-- Rua da Matinha -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.5" duration="10" until="460"/> <!-- Arrabalde da Ponte -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="655"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="759"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="864"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.9" duration="10" until="984"/> <!-- Mercado Sant'ana -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.10" duration="10" until="1135"/> <!-- Largo Da República -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.10" duration="10" until="1195"/> <!-- Bairro dos Sargentos -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.12" duration="10" until="1326"/> <!-- Prisão Escola -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.13" duration="10" until="1446"/> <!-- Colégio Conciliar De Maria Imaculada -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.14" duration="10" until="1498"/> <!-- Rua D. José Alves Correia Silva -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.15" duration="10" until="1593"/> <!-- Rua Lino António (Rua Titto Larcher) -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.16" duration="10" until="1653"/> <!-- Rua Lino António (Rua Poeta José da Cruz) -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.17" duration="10" until="1735"/> <!-- Rua Imaculada Conceição / Quartel -->
+        <stop busStop="gtfs_lra_0216" duration="10" until="0"/> <!-- Rua 20 De Junho / Igreja Marinheiros -->
+        <stop busStop="gtfs_lra_0005" duration="10" until="180"/> <!-- Estrada Dos Marinheiros / X Travessa Oliveiras -->
+        <stop busStop="gtfs_lra_0003" duration="10" until="295"/> <!-- Quinta do Bispo / Instituto Seg. Social -->
+        <stop busStop="gtfs_lra_0175" duration="10" until="355"/> <!-- Rua da Matinha -->
+        <stop busStop="gtfs_lra_0111" duration="10" until="460"/> <!-- Arrabalde da Ponte -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="655"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="759"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="864"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0040" duration="10" until="984"/> <!-- Mercado Sant'ana -->
+        <stop busStop="gtfs_lra_2034" duration="10" until="1135"/> <!-- Largo Da República -->
+        <stop busStop="gtfs_lra_0079" duration="10" until="1195"/> <!-- Bairro dos Sargentos -->
+        <stop busStop="gtfs_lra_0176" duration="10" until="1326"/> <!-- Prisão Escola -->
+        <stop busStop="gtfs_lra_2061" duration="10" until="1446"/> <!-- Colégio Conciliar De Maria Imaculada -->
+        <stop busStop="gtfs_lra_0180" duration="10" until="1498"/> <!-- Rua D. José Alves Correia Silva -->
+        <stop busStop="gtfs_lra_0182" duration="10" until="1593"/> <!-- Rua Lino António (Rua Titto Larcher) -->
+        <stop busStop="gtfs_lra_0185" duration="10" until="1653"/> <!-- Rua Lino António (Rua Poeta José da Cruz) -->
+        <stop busStop="gtfs_lra_0187" duration="10" until="1735"/> <!-- Rua Imaculada Conceição / Quartel -->
     </route>
     <route id="1013-1-002-A-U-06h35-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 1354384620#0 1354384620#1 1354384794 1354384796 677557372#0 677557372#1 677557369#0 677557369#1 -686704771#0 -686704770 -270159745#1 -270159745#0 -144843935 -144843934#1 -144843934#0 697881537 776872433#0 776872433#1 762753331 175877162#0 175877162#1 697428526#0 697428526#1 697428526#3 697428525#0 697428525#1 697428525#2 697428525#4 697428525#5 741976862#0 741976862#1 1576660774#1 175877160 888044830 888044826#0 888044826#1 762753334#0 762753334#1 888044827 888044829 762753335 -535287021#26 -535287021#25 -535287021#24 -535287021#23 -535287021#22 -535287021#21 -535287021#20 -535287021#19 -535287021#18 -535287021#17 -535287021#16 -535287021#14 218573253 493041509#0 493041509#1 493041509#2 493041509#3 493041509#4 493041509#5 493041509#6 493041509#8 493041509#10 493041509#11 -493041509#11 218573261#0 218573261#1 -535287021#3 -535287021#1">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="104"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="209"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.9" duration="10" until="329"/> <!-- Mercado Sant'ana -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.10" duration="10" until="480"/> <!-- Largo Da República -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.10" duration="10" until="540"/> <!-- Bairro dos Sargentos -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.12" duration="10" until="671"/> <!-- Prisão Escola -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.13" duration="10" until="791"/> <!-- Colégio Conciliar De Maria Imaculada -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.14" duration="10" until="843"/> <!-- Rua D. José Alves Correia Silva -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.15" duration="10" until="938"/> <!-- Rua Lino António (Rua Titto Larcher) -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.16" duration="10" until="998"/> <!-- Rua Lino António (Rua Poeta José da Cruz) -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.17" duration="10" until="1080"/> <!-- Rua Imaculada Conceição / Quartel -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="104"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="209"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0040" duration="10" until="329"/> <!-- Mercado Sant'ana -->
+        <stop busStop="gtfs_lra_2034" duration="10" until="480"/> <!-- Largo Da República -->
+        <stop busStop="gtfs_lra_0079" duration="10" until="540"/> <!-- Bairro dos Sargentos -->
+        <stop busStop="gtfs_lra_0176" duration="10" until="671"/> <!-- Prisão Escola -->
+        <stop busStop="gtfs_lra_2061" duration="10" until="791"/> <!-- Colégio Conciliar De Maria Imaculada -->
+        <stop busStop="gtfs_lra_0180" duration="10" until="843"/> <!-- Rua D. José Alves Correia Silva -->
+        <stop busStop="gtfs_lra_0182" duration="10" until="938"/> <!-- Rua Lino António (Rua Titto Larcher) -->
+        <stop busStop="gtfs_lra_0185" duration="10" until="998"/> <!-- Rua Lino António (Rua Poeta José da Cruz) -->
+        <stop busStop="gtfs_lra_0187" duration="10" until="1080"/> <!-- Rua Imaculada Conceição / Quartel -->
     </route>
     <route id="1014-1-001-A-U-07h00-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 775419027#3 144558081#0 144558081#1 144558081#2 1470396030 726152091#1 726152092 -1387811509#1 -1387811509#0 -144558088#1 -144558088#0 -1387811508 175877202 1387797321#0 1387797321#1 1387797322#1 1387797322#2 175877224 -838924823 -604620401#4 -604620401#3 -604620401#0 175877404 102148772#1 42704680 604621044 740043958 427619724 858780518#0 858780518#1 858780519 733339861 733339862#0 733339862#1 733339862#2 888442316#0 888442316#1 175877445 175877382 647242667#0 269739479#0 -269739478#1 -269739478#0 269739478#0 269739478#1 -269739478#1 -269739478#0 -269739475 647242667#4 647242667#5 731157360 269745180 1030082776#1 1030082775 727273808 1030082773 1331486615#0 1331486615#1 727273810#0 727273810#1 1030082772 1030082771 702273499 830602701#0 246801043#0 246801043#1 246801043#2 246801043#3 246801039#2 246801039#3 246801039#4 246801030 258548329#6 -737449493#0 -112574322#7 -112574322#6 -112574322#5 -112574322#3 -112574322#2 -112574322#1 -112574322#0 112574322#0 112574322#1 -112574323 -112574320#0 112574320#0 112574320#1 112574320#2 112574322#3 112574322#4 112574322#6 112574322#7 737449493#0 -258548329#6 -258548329#5 -258548329#4 -258548329#3 -258548329#2 -258548329#1 -258548329#0 -1030082778 -1030082777#1 -1030082777#0 246800546 246800548 702273498 -1030082771 -1030082772 -727273810#1 -727273810#0 -1331486615#1 -1331486615#0 -1030082773 -727273808 -1030082774 -1030082776#1 -269745180 -731157360 -647242667#5 -647242667#4 -647242667#3 -647242667#1 -647242659 175877449 647242666 -888442316#1 -888442316#0 -733339862#2 -733339862#1 -733339862#0 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 258548300 -102148772#1 38569822 604620401#0 604620401#3 604620401#4 838924823 175877226 776872442#0 776872442#1 1387797323#1 175877203 1387811508 144558088#0 144558088#1 144558088#2 1387811509#1 144629790 144945184#0 144945184#1 144945184#2 814438487#1 814438487#2 144945167 888442320 888821819 775419027#0 775419027#1 775419027#2 1354384620#0 1354384620#1 1354384794 1354384796 677557372#0 677557372#1 677557369#0 677557369#1 682926168#0 -270159751#1 -270159751#0 -673247215 -673247217 -682926167#1 -682926167#0 677762926 705519309#1 425372714#0 425372714#1 425372714#2 425372714#3 425372714#4 425372714#5 425372714#6 425372714#7 425378654#1 175877220 1070323176 175876998 733616003#0 733616003#1 733616004#0 733616004#1 951314477 731786313#0 731786313#2 731786313#3 -733616006#2 -733616006#1 -733616006#0 -1219566378 -1034866104 -166576361 733616005 1070340173 540875124#0 540875124#1 1070323174 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="172"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="236"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.3" duration="10" until="314"/> <!-- Fonte das 3 Bicas -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.4" duration="10" until="394"/> <!-- Ponte Hintze Ribeiro -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.5" duration="10" until="442"/> <!-- Bombeiros Municipais -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.6" duration="10" until="623"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.7" duration="10" until="681"/> <!-- Escola Correia Mateus -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.8" duration="10" until="776"/> <!-- Rua Paulo VI -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.9" duration="10" until="876"/> <!-- Rua Paulo VI / X N350 -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.10" duration="10" until="1236"/> <!-- Escola Primária Andrinos -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.11" duration="10" until="1292"/> <!-- Rua Principal EN350 -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.12" duration="10" until="1384"/> <!-- Q. Sirol. R. Calmeira -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.13" duration="10" until="1717"/> <!-- Rua Paulo VI / X Rua Vale Sepal -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.15" duration="10" until="1889"/> <!-- Rua Paulo VI / X Marinheiros -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.16" duration="10" until="1976"/> <!-- Rua Paulo VI / X N350 -->
-        <stop busStop="1014-1-001-A-U-07h00-AvBernardoPimen.17" duration="10" until="2070"/> <!-- Rua Paulo VI -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.37" duration="10" until="2182"/> <!-- Escola Correia Mateus -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.38" duration="10" until="2222"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.39" duration="10" until="2311"/> <!-- Rua de Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.40" duration="10" until="2356"/> <!-- Rua das Olhalvas -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.41" duration="10" until="2383"/> <!-- Bombeiros Municipais -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.42" duration="10" until="2428"/> <!-- Ponte Hintze Ribeiro -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.9" duration="10" until="2528"/> <!-- Mercado Sant'ana -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.17" duration="10" until="2640"/> <!-- Bairro dos Capuchos -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.18" duration="10" until="2750"/> <!-- Esc. Domingos Sequeira -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.19" duration="10" until="2800"/> <!-- Av. 25 De Abril -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.20" duration="10" until="2905"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.29" duration="10" until="3000"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="172"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="236"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0039" duration="10" until="314"/> <!-- Fonte das 3 Bicas -->
+        <stop busStop="gtfs_lra_2019" duration="10" until="394"/> <!-- Ponte Hintze Ribeiro -->
+        <stop busStop="gtfs_lra_0037" duration="10" until="442"/> <!-- Bombeiros Municipais -->
+        <stop busStop="gtfs_lra_0060" duration="10" until="623"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_2021" duration="10" until="681"/> <!-- Escola Correia Mateus -->
+        <stop busStop="gtfs_lra_2023" duration="10" until="776"/> <!-- Rua Paulo VI -->
+        <stop busStop="gtfs_lra_0207" duration="10" until="876"/> <!-- Rua Paulo VI / X N350 -->
+        <stop busStop="gtfs_lra_0319" duration="10" until="1236"/> <!-- Escola Primária Andrinos -->
+        <stop busStop="gtfs_lra_2050" duration="10" until="1292"/> <!-- Rua Principal EN350 -->
+        <stop busStop="gtfs_lra_0223" duration="10" until="1384"/> <!-- Q. Sirol. R. Calmeira -->
+        <stop busStop="gtfs_lra_0126" duration="10" until="1717"/> <!-- Rua Paulo VI / X Rua Vale Sepal -->
+        <stop busStop="gtfs_lra_2049" duration="10" until="1889"/> <!-- Rua Paulo VI / X Marinheiros -->
+        <stop busStop="gtfs_lra_0122" duration="10" until="1976"/> <!-- Rua Paulo VI / X N350 -->
+        <stop busStop="gtfs_lra_2024" duration="10" until="2070"/> <!-- Rua Paulo VI -->
+        <stop busStop="gtfs_lra_2020" duration="10" until="2182"/> <!-- Escola Correia Mateus -->
+        <stop busStop="gtfs_lra_2022" duration="10" until="2222"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_0135" duration="10" until="2311"/> <!-- Rua de Santo André -->
+        <stop busStop="gtfs_lra_0204" duration="10" until="2356"/> <!-- Rua das Olhalvas -->
+        <stop busStop="gtfs_lra_0050" duration="10" until="2383"/> <!-- Bombeiros Municipais -->
+        <stop busStop="gtfs_lra_2013" duration="10" until="2428"/> <!-- Ponte Hintze Ribeiro -->
+        <stop busStop="gtfs_lra_0040" duration="10" until="2528"/> <!-- Mercado Sant'ana -->
+        <stop busStop="gtfs_lra_2038" duration="10" until="2640"/> <!-- Bairro dos Capuchos -->
+        <stop busStop="gtfs_lra_2039" duration="10" until="2750"/> <!-- Esc. Domingos Sequeira -->
+        <stop busStop="gtfs_lra_2041" duration="10" until="2800"/> <!-- Av. 25 De Abril -->
+        <stop busStop="gtfs_lra_0044" duration="10" until="2905"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
+        <stop busStop="gtfs_lra_2042" duration="10" until="3000"/> <!-- Av. Bernardo Pimenta (Terminal) -->
     </route>
     <route id="1015-1-001-A-U-06h45-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 175877405 144825185#0 144825185#1 872758403 686731037 108151913#0 108151913#1 1249473023 739868624#0 739868624#1 739868624#3 739868624#4 739868624#5 739868624#6 739867398#0 739867398#1 739867398#2 739867398#3 1223944380#0 144825180#0 144825180#1 144825180#2 1354382546#1 1354382546#2 262085718 772026457 175876999 -733616011 -166576346 262080580 888011195 540875125 262086644#0 262086644#1 144795272#1 175877264 872758405 23644801#0 23644801#1 175877342 442034778 1036889062 1036889063 -906726029#4 -906726029#3 -906726029#2 -906726029#1 -906726029#0 906726031 -38512554 38512554 906726030 906726029#0 906726029#1 906726029#2 906726029#3 906726029#4 -1036889063 -1036889062 -442034778 175877285 772026455#1 772026455#2 872758406#0 175877319 -144795272#1 -144795272#0 -262086644#0 144795277 1070323207#1 1337256016 107382846#0 107382846#2 107382846#3 733059830#1 733059830#2 805921563#0 805921563#1 805921563#2 805921562#0 805921562#1 805921562#2">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="75"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="150"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.44" duration="10" until="240"/> <!-- Rua Dr. Américo Cortez Pinto -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.45" duration="10" until="351"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.1" duration="10" until="415"/> <!-- Arrabalde da Ponte -->
-        <stop busStop="1015-1-001-A-U-06h45-AvBernardoPimen.6" duration="10" until="487"/> <!-- Quinta da Matinha -->
-        <stop busStop="1015-1-001-A-U-06h45-AvBernardoPimen.7" duration="10" until="531"/> <!-- Esc. Formação Social -->
-        <stop busStop="1015-1-001-A-U-06h45-AvBernardoPimen.8" duration="10" until="2652"/> <!-- Residência Paroquial -->
-        <stop busStop="1015-1-001-A-U-06h45-AvBernardoPimen.9" duration="10" until="2709"/> <!-- Esc. Formação Social -->
-        <stop busStop="1015-1-001-A-U-06h45-AvBernardoPimen.10" duration="10" until="2746"/> <!-- Quinta da Matinha -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.5" duration="10" until="2824"/> <!-- Arrabalde da Ponte -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="3000"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="75"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="150"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0104" duration="10" until="240"/> <!-- Rua Dr. Américo Cortez Pinto -->
+        <stop busStop="gtfs_lra_0108" duration="10" until="351"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
+        <stop busStop="gtfs_lra_0110" duration="10" until="415"/> <!-- Arrabalde da Ponte -->
+        <stop busStop="gtfs_lra_0246" duration="10" until="487"/> <!-- Quinta da Matinha -->
+        <stop busStop="gtfs_lra_0247" duration="10" until="531"/> <!-- Esc. Formação Social -->
+        <stop busStop="gtfs_lra_0250" duration="10" until="2652"/> <!-- Residência Paroquial -->
+        <stop busStop="gtfs_lra_0248" duration="10" until="2709"/> <!-- Esc. Formação Social -->
+        <stop busStop="gtfs_lra_0009" duration="10" until="2746"/> <!-- Quinta da Matinha -->
+        <stop busStop="gtfs_lra_0111" duration="10" until="2824"/> <!-- Arrabalde da Ponte -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="3000"/> <!-- Av. Bernardo Pimenta (Estádio) -->
     </route>
     <route id="1016-1-001-A-U-07h10-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 1354384620#0 1354384620#1 1354384794 1354384796 677557372#0 677557372#1 677557369#0 677557369#1 650122888#0 686693360 1026104495 1026104496 1026104501 1092193125#0 1092193125#1 1026104498 1026104494#0 1026104494#1 686693358#0 686693358#1 713181371#0 713181371#1 1352366050 677767659 792763918 270159757 699520057 928722694 928722692 686693354 1352365230#0 1352365230#1 540868260#1 540868260#2 516896677 95384896 728852856 728209795 875568942#0 875568942#1 875568942#2 1068949285 278025372 875568943 23592134 144610879 1352363758#1 875499775 145209367#1 145209369#1 145209369#2 95384890#0 95384890#1 74174818#0 74174818#1 1352361403 76691243 -848389775#1 -76691265 -952246033#1 -952246033#0 -1315993784 -952246034 952239330 -197287475 -1332439212#0 -1331485059#0 -810572175#0 197287481 76691249#4 76691246 76691266#4 76691266#5 1274278486 1274278487#2 728177678 1352361403 772276087 772276086 728177683 1390727186#0 1390727186#1 1390727187#1 1390727438 647269989#2 647269989#3 647269989#4 647269989#5 1390727440#1 -1390727440#1 -1390727440#0 -647269989#4 -647269989#3 -647269989#2 -647269989#0 -1390727187#1 -1390727187#0 -1390727186#0 62512499 761999304 139031275#0 139031275#2 145209369#4 139031283 776648422 776648421 62503426#0 62503426#0-AddedOffRampEdge 192124041#0 192124041#1 625405140#0 625405140#1">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="129"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="176"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.9" duration="10" until="233"/> <!-- Mercado Sant'ana -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.17" duration="10" until="302"/> <!-- Câmara Municipal / ESEL -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.18" duration="10" until="373"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.6" duration="10" until="498"/> <!-- Rotunda do Alto do Vieiro -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.7" duration="10" until="613"/> <!-- Casal de Santa Clara -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.8" duration="10" until="649"/> <!-- Rua da Quinta (Rua do Convento) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.9" duration="10" until="674"/> <!-- Rua da Quinta (Rotunda Edifoz) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.10" duration="10" until="723"/> <!-- Rua da Carvalha -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.11" duration="10" until="760"/> <!-- Incubadora IPL -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.12" duration="10" until="802"/> <!-- Rua de Santa Clara (Rotunda Edifoz) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.13" duration="10" until="860"/> <!-- Rua de Santa Clara (Rotunda Aérea) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.14" duration="10" until="924"/> <!-- Quinta do Pisão -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.15" duration="10" until="984"/> <!-- X Rua Santa Maria -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.16" duration="10" until="1021"/> <!-- Junta Freguesia Parceiros -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="129"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="176"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0040" duration="10" until="233"/> <!-- Mercado Sant'ana -->
+        <stop busStop="gtfs_lra_2032" duration="10" until="302"/> <!-- Câmara Municipal / ESEL -->
+        <stop busStop="gtfs_lra_2030" duration="10" until="373"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
+        <stop busStop="gtfs_lra_2000" duration="10" until="498"/> <!-- Rotunda do Alto do Vieiro -->
+        <stop busStop="gtfs_lra_0052" duration="10" until="613"/> <!-- Casal de Santa Clara -->
+        <stop busStop="gtfs_lra_0014" duration="10" until="649"/> <!-- Rua da Quinta (Rua do Convento) -->
+        <stop busStop="gtfs_lra_0026" duration="10" until="674"/> <!-- Rua da Quinta (Rotunda Edifoz) -->
+        <stop busStop="gtfs_lra_0152" duration="10" until="723"/> <!-- Rua da Carvalha -->
+        <stop busStop="gtfs_lra_0243" duration="10" until="760"/> <!-- Incubadora IPL -->
+        <stop busStop="gtfs_lra_0015" duration="10" until="802"/> <!-- Rua de Santa Clara (Rotunda Edifoz) -->
+        <stop busStop="gtfs_lra_0016" duration="10" until="860"/> <!-- Rua de Santa Clara (Rotunda Aérea) -->
+        <stop busStop="gtfs_lra_0206" duration="10" until="924"/> <!-- Quinta do Pisão -->
+        <stop busStop="gtfs_lra_2003" duration="10" until="984"/> <!-- X Rua Santa Maria -->
+        <stop busStop="gtfs_lra_0007" duration="10" until="1021"/> <!-- Junta Freguesia Parceiros -->
     </route>
     <route id="1016-1-002-A-U-08h15-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 1354384620#0 1354384620#1 1354384794 1354384796 677557372#0 677557372#1 677557369#0 677557369#1 650122888#0 686693360 1026104495 1026104496 1026104501 1092193125#0 1092193125#1 1026104498 1026104494#0 1026104494#1 686693358#0 686693358#1 713181371#0 713181371#1 1352366050 677767659 792763918 270159757 699520057 928722694 928722692 686693354 1352365230#0 1352365230#1 540868260#1 540868260#2 516896677 95384896 728852856 728209795 875568942#0 875568942#1 875568942#2 1068949285 278025372 875568943 23592134 144610879 1352363758#1 875499775 145209367#1 145209369#1 145209369#2 95384890#0 95384890#1 74174818#0 74174818#1 1352361403 76691243 -848389775#1 -76691265 -952246033#1 -952246033#0 -1315993784 -952246034 952239330 -197287475 -1332439212#0 -1331485059#0 -810572175#0 197287481 76691249#4 76691246 76691266#4 76691266#5 1274278486 1274278487#2 728177678 1352361403 772276087 772276086 728177683 1390727186#0 1390727186#1 1390727187#1 1390727438 647269989#2 647269989#3 647269989#4 647269989#5 1390727440#1 -1390727440#1 -1390727440#0 -647269989#4 -647269989#3 -647269989#2 -647269989#0 -1390727187#1 -1390727187#0 -1390727186#0 62512499 761999304 139031275#0 139031275#2 145209369#4 139031283 776648422 776648421 62503426#0 62503426#0-AddedOffRampEdge 192124041#0 192124041#1 625405140#0 625405140#1">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="134"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="183"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.9" duration="10" until="242"/> <!-- Mercado Sant'ana -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.17" duration="10" until="314"/> <!-- Câmara Municipal / ESEL -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.18" duration="10" until="388"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.6" duration="10" until="519"/> <!-- Rotunda do Alto do Vieiro -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.7" duration="10" until="640"/> <!-- Casal de Santa Clara -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.8" duration="10" until="678"/> <!-- Rua da Quinta (Rua do Convento) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.9" duration="10" until="705"/> <!-- Rua da Quinta (Rotunda Edifoz) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.10" duration="10" until="756"/> <!-- Rua da Carvalha -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.11" duration="10" until="794"/> <!-- Incubadora IPL -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.12" duration="10" until="838"/> <!-- Rua de Santa Clara (Rotunda Edifoz) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.13" duration="10" until="898"/> <!-- Rua de Santa Clara (Rotunda Aérea) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.14" duration="10" until="965"/> <!-- Quinta do Pisão -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.15" duration="10" until="1028"/> <!-- X Rua Santa Maria -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.16" duration="10" until="1067"/> <!-- Junta Freguesia Parceiros -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="134"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="183"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0040" duration="10" until="242"/> <!-- Mercado Sant'ana -->
+        <stop busStop="gtfs_lra_2032" duration="10" until="314"/> <!-- Câmara Municipal / ESEL -->
+        <stop busStop="gtfs_lra_2030" duration="10" until="388"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
+        <stop busStop="gtfs_lra_2000" duration="10" until="519"/> <!-- Rotunda do Alto do Vieiro -->
+        <stop busStop="gtfs_lra_0052" duration="10" until="640"/> <!-- Casal de Santa Clara -->
+        <stop busStop="gtfs_lra_0014" duration="10" until="678"/> <!-- Rua da Quinta (Rua do Convento) -->
+        <stop busStop="gtfs_lra_0026" duration="10" until="705"/> <!-- Rua da Quinta (Rotunda Edifoz) -->
+        <stop busStop="gtfs_lra_0152" duration="10" until="756"/> <!-- Rua da Carvalha -->
+        <stop busStop="gtfs_lra_0243" duration="10" until="794"/> <!-- Incubadora IPL -->
+        <stop busStop="gtfs_lra_0015" duration="10" until="838"/> <!-- Rua de Santa Clara (Rotunda Edifoz) -->
+        <stop busStop="gtfs_lra_0016" duration="10" until="898"/> <!-- Rua de Santa Clara (Rotunda Aérea) -->
+        <stop busStop="gtfs_lra_0206" duration="10" until="965"/> <!-- Quinta do Pisão -->
+        <stop busStop="gtfs_lra_2003" duration="10" until="1028"/> <!-- X Rua Santa Maria -->
+        <stop busStop="gtfs_lra_0007" duration="10" until="1067"/> <!-- Junta Freguesia Parceiros -->
     </route>
     <route id="1017-1-001-A-U-07h00-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 775419027#3 144558081#0 144558081#1 144558081#2 1470396030 726152091#1 726152092 -1387811509#1 -1387811509#0 -144558088#1 -144558088#0 -1387811508 175877202 1387797321#0 1387797321#1 1387797322#1 1387797322#2 888821816 776872442#0 175877179 38465043#0 38465043#1 38465043#3 38465043#4 175877300 647242666 -888442316#1 -888442316#0 -733339862#2 -733339862#1 -733339862#0 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 258548300 -427619721 42704681 888442318 888821815 888437233#0 22927996 1387795090#1 175877011#1 1387794670 971169465#0 971169465#1 1002431058#0 1002431058#1 1387775722#1 888050672 888050671#0 888050671#1 888050671#2 1387775653#1 1387775653#2 1387775653#3 1117268454 38552643#0 38552643#1 1117268453 1117268452#0 705525133 888050673 -705525128#1 -705525127#1 -705525127#0 -517716034 102148768#1 517716031 888437221#0 888437221#1 888437221#2 888437221#3 888437221#4 888437221#5 102148784#0 102148784#1 102148784#2 102148784#3 -102148784#3 -102148784#2 -102148784#1 267586988 888437224#1 267589587#0 267589587#1 -267586987#3 -267586987#2 -267586987#1 -267586987#0 -62225650#2 -62225650#1 -62225650#0 258983596#0 258983596#1 267537092#0 267537092#1 766803112#3 766803112#4 62225660 -766803099#1 -766803099#0 766803099#0 766803099#1 62225661 766803112#0 766803112#1 258983594#0 62225634 62225642#5 62225642#1 62225642#2 -258983586 -258983585#0 -144950784#6 -144950784#5 -144950784#4 -144950784#3 -144950784#2 -144950784#1 -144950784#0 -140836411#9 -140836411#8 -140836411#7 -140836411#5 -140836411#4 -140836411#3 -140836411#2 140836411#0 140836411#3 140836411#4 140836411#5 140836411#7 140836411#8 140836411#9 140836411#10 140836411#11 95629324#0 95629324#1 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 604621044 740043958 427619724 858780518#0 858780518#1 858780519 733339861 733339862#0 733339862#1 733339862#2 888442316#0 888442316#1 -888442316#1 -888442316#0 -733339862#2 -733339862#1 -733339862#0 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 258548300 -102148772#1 38569822 604620401#0 604620401#3 604620401#4 838924823 175877226 776872442#0 776872442#1 1387797323#1 175877203 1387811508 144558088#0 144558088#1 144558088#2 1387811509#1 144629790 144945184#0 144945184#1 144945184#2 814438487#1 814438487#2 144945167 888442320 175877166 -809868211#2 -809868211#1 -809868211#0 -23591885#4 -23591885#2 -23591885#1 -23591885#0 175877373 809862695 144825185#0 144825185#1 872758403 686731037 108151913#0 108151913#1 1249473023 739868624#0 739868624#1 739868624#3 739868624#4 739868624#5 739868624#6 739867398#0 739867398#1 739867398#2 739867398#3 1223944380#0 144825180#0 144825180#1 144825180#2 1354382546#1 1354382546#2 262085718 772026457 175876999 -733616011 -166576346 262080580 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2 107382846#3 733059830#1 733059830#2 805921563#0 805921563#1 805921563#2 805921562#0 805921562#1 805921562#2">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="60"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="110"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.3" duration="10" until="180"/> <!-- Fonte das 3 Bicas -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.4" duration="10" until="250"/> <!-- Ponte Hintze Ribeiro -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.5" duration="10" until="290"/> <!-- Bombeiros Municipais -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.37" duration="10" until="445"/> <!-- Escola Correia Mateus -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.38" duration="10" until="480"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.30" duration="10" until="685"/> <!-- Guimarota -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.31" duration="10" until="755"/> <!-- Escola Profissional / ISLA -->
-        <stop busStop="1017-1-001-A-U-07h00-AvBernardoPimen.10" duration="10" until="795"/> <!-- Rua da Cooperativa / X Casal dos Matos -->
-        <stop busStop="1017-1-001-A-U-07h00-AvBernardoPimen.11" duration="10" until="855"/> <!-- Rua N. S. Fátima -->
-        <stop busStop="1017-1-001-A-U-07h00-AvBernardoPimen.21" duration="10" until="2040"/> <!-- R. Prof. Abílio Alves De Brito / Farmácia -->
-        <stop busStop="1017-1-001-A-U-07h00-AvBernardoPimen.22" duration="10" until="2078"/> <!-- Rua Coronel José Pereira Pascoal -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.38" duration="10" until="2129"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.37" duration="10" until="2309"/> <!-- Escola Correia Mateus -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.38" duration="10" until="2340"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.39" duration="10" until="2404"/> <!-- Rua de Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.40" duration="10" until="2439"/> <!-- Rua das Olhalvas -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.41" duration="10" until="2460"/> <!-- Bombeiros Municipais -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.42" duration="10" until="2490"/> <!-- Ponte Hintze Ribeiro -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.43" duration="10" until="2589"/> <!-- Jardim Luís de Camões -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.44" duration="10" until="2640"/> <!-- Rua Dr. Américo Cortez Pinto -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.45" duration="10" until="2753"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="2880"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="60"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="110"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0039" duration="10" until="180"/> <!-- Fonte das 3 Bicas -->
+        <stop busStop="gtfs_lra_2019" duration="10" until="250"/> <!-- Ponte Hintze Ribeiro -->
+        <stop busStop="gtfs_lra_0037" duration="10" until="290"/> <!-- Bombeiros Municipais -->
+        <stop busStop="gtfs_lra_2020" duration="10" until="445"/> <!-- Escola Correia Mateus -->
+        <stop busStop="gtfs_lra_2022" duration="10" until="480"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_0070" duration="10" until="685"/> <!-- Guimarota -->
+        <stop busStop="gtfs_lra_2016" duration="10" until="755"/> <!-- Escola Profissional / ISLA -->
+        <stop busStop="gtfs_lra_0048" duration="10" until="795"/> <!-- Rua da Cooperativa / X Casal dos Matos -->
+        <stop busStop="gtfs_lra_0047" duration="10" until="855"/> <!-- Rua N. S. Fátima -->
+        <stop busStop="gtfs_lra_2069" duration="10" until="2040"/> <!-- R. Prof. Abílio Alves De Brito / Farmácia -->
+        <stop busStop="gtfs_lra_2078" duration="10" until="2078"/> <!-- Rua Coronel José Pereira Pascoal -->
+        <stop busStop="gtfs_lra_2022" duration="10" until="2129"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_2020" duration="10" until="2309"/> <!-- Escola Correia Mateus -->
+        <stop busStop="gtfs_lra_2022" duration="10" until="2340"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_0135" duration="10" until="2404"/> <!-- Rua de Santo André -->
+        <stop busStop="gtfs_lra_0204" duration="10" until="2439"/> <!-- Rua das Olhalvas -->
+        <stop busStop="gtfs_lra_0050" duration="10" until="2460"/> <!-- Bombeiros Municipais -->
+        <stop busStop="gtfs_lra_2013" duration="10" until="2490"/> <!-- Ponte Hintze Ribeiro -->
+        <stop busStop="gtfs_lra_0041" duration="10" until="2589"/> <!-- Jardim Luís de Camões -->
+        <stop busStop="gtfs_lra_0104" duration="10" until="2640"/> <!-- Rua Dr. Américo Cortez Pinto -->
+        <stop busStop="gtfs_lra_0108" duration="10" until="2753"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="2880"/> <!-- Av. Bernardo Pimenta (Estádio) -->
     </route>
     <route id="1017-1-003-A-U-08h45-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 775419027#3 144558081#0 144558081#1 144558081#2 1470396030 726152091#1 726152092 -1387811509#1 -1387811509#0 -144558088#1 -144558088#0 -1387811508 175877202 1387797321#0 1387797321#1 1387797322#1 1387797322#2 888821816 776872442#0 175877179 38465043#0 38465043#1 38465043#3 38465043#4 175877300 647242666 -888442316#1 -888442316#0 -733339862#2 -733339862#1 -733339862#0 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 258548300 -427619721 42704681 888442318 888821815 888437233#0 22927996 1387795090#1 175877011#1 1387794670 971169465#0 971169465#1 1002431058#0 1002431058#1 1387775722#1 888050672 888050671#0 888050671#1 888050671#2 1387775653#1 1387775653#2 1387775653#3 1117268454 38552643#0 38552643#1 1117268453 1117268452#0 705525133 888050673 -705525128#1 -705525127#1 -705525127#0 -517716034 102148768#1 517716031 888437221#0 888437221#1 888437221#2 888437221#3 888437221#4 888437221#5 102148784#0 102148784#1 102148784#2 102148784#3 -102148784#3 -102148784#2 -102148784#1 267586988 888437224#1 267589587#0 267589587#1 -267586987#3 -267586987#2 -267586987#1 -267586987#0 -62225650#2 -62225650#1 -62225650#0 258983596#0 258983596#1 267537092#0 267537092#1 766803112#3 766803112#4 62225660 -766803099#1 -766803099#0 766803099#0 766803099#1 62225661 766803112#0 766803112#1 258983594#0 62225634 62225642#5 62225642#1 62225642#2 -258983586 -258983585#0 -144950784#6 -144950784#5 -144950784#4 -144950784#3 -144950784#2 -144950784#1 -144950784#0 -140836411#9 -140836411#8 -140836411#7 -140836411#5 -140836411#4 -140836411#3 -140836411#2 140836411#0 140836411#3 140836411#4 140836411#5 140836411#7 140836411#8 140836411#9 140836411#10 140836411#11 95629324#0 95629324#1 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 604621044 740043958 427619724 858780518#0 858780518#1 858780519 733339861 733339862#0 733339862#1 733339862#2 888442316#0 888442316#1 -888442316#1 -888442316#0 -733339862#2 -733339862#1 -733339862#0 -733339861 -858780519 -858780518#1 -858780518#0 -427619724 -740043958 -427619731 258548300 -102148772#1 38569822 604620401#0 604620401#3 604620401#4 838924823 175877226 776872442#0 776872442#1 1387797323#1 175877203 1387811508 144558088#0 144558088#1 144558088#2 1387811509#1 144629790 144945184#0 144945184#1 144945184#2 814438487#1 814438487#2 144945167 888442320 175877166 -809868211#2 -809868211#1 -809868211#0 -23591885#4 -23591885#2 -23591885#1 -23591885#0 175877373 809862695 144825185#0 144825185#1 872758403 686731037 108151913#0 108151913#1 1249473023 739868624#0 739868624#1 739868624#3 739868624#4 739868624#5 739868624#6 739867398#0 739867398#1 739867398#2 739867398#3 1223944380#0 144825180#0 144825180#1 144825180#2 1354382546#1 1354382546#2 262085718 772026457 175876999 -733616011 -166576346 262080580 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2 107382846#3 733059830#1 733059830#2 805921563#0 805921563#1 805921563#2 805921562#0 805921562#1 805921562#2">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.1" duration="10" until="60"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="120"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.3" duration="10" until="185"/> <!-- Fonte das 3 Bicas -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.4" duration="10" until="255"/> <!-- Ponte Hintze Ribeiro -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.5" duration="10" until="295"/> <!-- Bombeiros Municipais -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.37" duration="10" until="445"/> <!-- Escola Correia Mateus -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.38" duration="10" until="480"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.30" duration="10" until="681"/> <!-- Guimarota -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.31" duration="10" until="754"/> <!-- Escola Profissional / ISLA -->
-        <stop busStop="1017-1-001-A-U-07h00-AvBernardoPimen.10" duration="10" until="796"/> <!-- Rua da Cooperativa / X Casal dos Matos -->
-        <stop busStop="1017-1-001-A-U-07h00-AvBernardoPimen.11" duration="10" until="858"/> <!-- Rua N. S. Fátima -->
-        <stop busStop="1017-1-001-A-U-07h00-AvBernardoPimen.21" duration="10" until="2640"/> <!-- R. Prof. Abílio Alves De Brito / Farmácia -->
-        <stop busStop="1017-1-001-A-U-07h00-AvBernardoPimen.22" duration="10" until="2678"/> <!-- Rua Coronel José Pereira Pascoal -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.38" duration="10" until="2729"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.37" duration="10" until="2909"/> <!-- Escola Correia Mateus -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.38" duration="10" until="2940"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.39" duration="10" until="3005"/> <!-- Rua de Santo André -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.40" duration="10" until="3040"/> <!-- Rua das Olhalvas -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.41" duration="10" until="3060"/> <!-- Bombeiros Municipais -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.42" duration="10" until="3090"/> <!-- Ponte Hintze Ribeiro -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.43" duration="10" until="3190"/> <!-- Jardim Luís de Camões -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.44" duration="10" until="3240"/> <!-- Rua Dr. Américo Cortez Pinto -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.45" duration="10" until="3344"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="3480"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_2014" duration="10" until="60"/> <!-- Rua Capitão Mouzinho De Albuquerque -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="120"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0039" duration="10" until="185"/> <!-- Fonte das 3 Bicas -->
+        <stop busStop="gtfs_lra_2019" duration="10" until="255"/> <!-- Ponte Hintze Ribeiro -->
+        <stop busStop="gtfs_lra_0037" duration="10" until="295"/> <!-- Bombeiros Municipais -->
+        <stop busStop="gtfs_lra_2020" duration="10" until="445"/> <!-- Escola Correia Mateus -->
+        <stop busStop="gtfs_lra_2022" duration="10" until="480"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_0070" duration="10" until="681"/> <!-- Guimarota -->
+        <stop busStop="gtfs_lra_2016" duration="10" until="754"/> <!-- Escola Profissional / ISLA -->
+        <stop busStop="gtfs_lra_0048" duration="10" until="796"/> <!-- Rua da Cooperativa / X Casal dos Matos -->
+        <stop busStop="gtfs_lra_0047" duration="10" until="858"/> <!-- Rua N. S. Fátima -->
+        <stop busStop="gtfs_lra_2069" duration="10" until="2640"/> <!-- R. Prof. Abílio Alves De Brito / Farmácia -->
+        <stop busStop="gtfs_lra_2078" duration="10" until="2678"/> <!-- Rua Coronel José Pereira Pascoal -->
+        <stop busStop="gtfs_lra_2022" duration="10" until="2729"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_2020" duration="10" until="2909"/> <!-- Escola Correia Mateus -->
+        <stop busStop="gtfs_lra_2022" duration="10" until="2940"/> <!-- Rua Das Olhalvas / Hospital Santo André -->
+        <stop busStop="gtfs_lra_0135" duration="10" until="3005"/> <!-- Rua de Santo André -->
+        <stop busStop="gtfs_lra_0204" duration="10" until="3040"/> <!-- Rua das Olhalvas -->
+        <stop busStop="gtfs_lra_0050" duration="10" until="3060"/> <!-- Bombeiros Municipais -->
+        <stop busStop="gtfs_lra_2013" duration="10" until="3090"/> <!-- Ponte Hintze Ribeiro -->
+        <stop busStop="gtfs_lra_0041" duration="10" until="3190"/> <!-- Jardim Luís de Camões -->
+        <stop busStop="gtfs_lra_0104" duration="10" until="3240"/> <!-- Rua Dr. Américo Cortez Pinto -->
+        <stop busStop="gtfs_lra_0108" duration="10" until="3344"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="3480"/> <!-- Av. Bernardo Pimenta (Estádio) -->
     </route>
     <route id="1018-1-001-A-U-08h30-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 1354384279#0 1354384279#1 1354384337#1 23644719#0 23644719#1 1117012160#0 1117012160#1 1117012160#2 1117012160#3 23644882#0 23644882#1 809868212#0 809868212#1 686731038#0 686731038#1 809862696 872758404 23591885#0 23591885#1 23591885#2 23591885#4 809868211#0 809868211#1 809868211#2 175877167 775419027#0 775419027#1 775419027#2 775419027#3 144558081#0 144558081#1 144558081#2 1470396030 176063197#0 176063197#1 517716085 144558084#1 698133510 175877191 1387776161 270504354 687410581 1313564081 1470395449 995951303#1 995951303#2 1111824251#0 1111824251#1 38549699#0 38549699#1 144558086#0 144558086#2 144558086#3 736259307 888050671#0 888050671#1 888050671#2 1387775653#1 1387775653#2 1387775653#3 1117268454 38552643#0 38552643#1 1117268453 265349378#0 265349378#1 265349376#0 265349376#2 265349376#3 265349376#4 265349376#5 265349376#6 265349376#7 265349376#8 265349376#9 265349376#11 265349376#12 265349376#13 265349376#14 516679783 177862586#3 177862586#4 177862586#5 516680440 -798614584 798614584 516680441 177862586#1 516679784 -265349376#14 -265349376#13 -265349376#12 -265349376#11 -265349376#9 -265349376#8 -265349376#7 -265349376#6 -265349376#5 -265349376#4 -265349376#3 -265349376#2 -265349376#0 517716060 517716059 888050673 -705525128#1 -705525127#1 -705525127#0 -517716034 102148768#1 517716031 888437221#0 888437221#1 888437221#2 888437221#3 888437221#4 888437221#5 102148784#0 102148784#1 102148784#2 102148784#3 -102148784#3 -102148784#2 -102148784#1 -102148784#0 -888437221#5 -888437221#4 -888437221#3 -888437221#2 -888437221#1 -888437221#0 -517716031 -102148768#1 -102148768#0 705525127#0 705525127#1 705525128#1 686355378 265349386#0 265349386#1 265349386#2 1387794452 22927998#1 22927998#2 1387775722#1 147686417#0 147686417#1 -1387782975 -718023864#3 -718023864#2 -718023864#1 -718023864#0 -717653150 1387782420 717653154 1387790260#0 1387790260#1 258110253#1 258110253#2 -687410581 776872437 776872439 1387776159 1387776160 1111828363#0 1111828363#1 175877186 -698133510 -144558084#1 -144558084#0 726152092 144629790 144945184#0 144945184#1 144945184#2 814438487#1 814438487#2 144945167 888442320 175877166 -809868211#2 -809868211#1 -809868211#0 -23591885#4 -23591885#2 -23591885#1 -23591885#0 175877373 809862695 144825185#0 144825185#1 872758403 686731037 108151913#0 108151913#1 1249473023 739868624#0 739868624#1 739868624#3 739868624#4 739868624#5 739868624#6 739867398#0 739867398#1 739867398#2 739867398#3 1223944380#0 144825180#0 144825180#1 144825180#2 1354382546#1 1354382546#2 262085718 772026457 175876999 -733616011 -166576346 262080580 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.2" duration="10" until="139"/> <!-- Largo Cónego Maia / Sé -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.3" duration="10" until="186"/> <!-- Fonte das 3 Bicas -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.4" duration="10" until="231"/> <!-- Largo Santo Agostinho -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.5" duration="10" until="271"/> <!-- Av. General Humberto Delgado 1 -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.6" duration="10" until="313"/> <!-- Av. General Humberto Delgado 2 -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.30" duration="10" until="360"/> <!-- Guimarota -->
-        <stop busStop="1018-1-001-A-U-08h30-AvBernardoPimen.7" duration="10" until="420"/> <!-- Esc. Básica Guimarota (N356-2) -->
-        <stop busStop="1018-1-001-A-U-08h30-AvBernardoPimen.8" duration="10" until="660"/> <!-- Moinho Novo -->
-        <stop busStop="1018-1-001-A-U-08h30-AvBernardoPimen.13" duration="10" until="1594"/> <!-- Rua N. S. Fátima -->
-        <stop busStop="1018-1-001-A-U-08h30-AvBernardoPimen.14" duration="10" until="1640"/> <!-- Rua da Cooperativa / X Casal dos Matos -->
-        <stop busStop="1018-1-001-A-U-08h30-AvBernardoPimen.15" duration="10" until="1680"/> <!-- Escola Profissional / ISLA -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.13" duration="10" until="1740"/> <!-- Guimarota -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.7" duration="10" until="1791"/> <!-- Av. N. S. Fátima -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.8" duration="10" until="1840"/> <!-- Av. N. S. Fátima / Sra. da Encarnação -->
-        <stop busStop="1018-1-001-A-U-08h30-AvBernardoPimen.19" duration="10" until="1878"/> <!-- Largo Santo Agostinho -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.43" duration="10" until="1993"/> <!-- Jardim Luís de Camões -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.44" duration="10" until="2040"/> <!-- Rua Dr. Américo Cortez Pinto -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.45" duration="10" until="2220"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.29" duration="10" until="2280"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_0042" duration="10" until="139"/> <!-- Largo Cónego Maia / Sé -->
+        <stop busStop="gtfs_lra_0039" duration="10" until="186"/> <!-- Fonte das 3 Bicas -->
+        <stop busStop="gtfs_lra_2025" duration="10" until="231"/> <!-- Largo Santo Agostinho -->
+        <stop busStop="gtfs_lra_0065" duration="10" until="271"/> <!-- Av. General Humberto Delgado 1 -->
+        <stop busStop="gtfs_lra_0068" duration="10" until="313"/> <!-- Av. General Humberto Delgado 2 -->
+        <stop busStop="gtfs_lra_0070" duration="10" until="360"/> <!-- Guimarota -->
+        <stop busStop="gtfs_lra_0118" duration="10" until="420"/> <!-- Esc. Básica Guimarota (N356-2) -->
+        <stop busStop="gtfs_lra_0150" duration="10" until="660"/> <!-- Moinho Novo -->
+        <stop busStop="gtfs_lra_0142" duration="10" until="1594"/> <!-- Rua N. S. Fátima -->
+        <stop busStop="gtfs_lra_0141" duration="10" until="1640"/> <!-- Rua da Cooperativa / X Casal dos Matos -->
+        <stop busStop="gtfs_lra_2052" duration="10" until="1680"/> <!-- Escola Profissional / ISLA -->
+        <stop busStop="gtfs_lra_0071" duration="10" until="1740"/> <!-- Guimarota -->
+        <stop busStop="gtfs_lra_0066" duration="10" until="1791"/> <!-- Av. N. S. Fátima -->
+        <stop busStop="gtfs_lra_0254" duration="10" until="1840"/> <!-- Av. N. S. Fátima / Sra. da Encarnação -->
+        <stop busStop="gtfs_lra_2045" duration="10" until="1878"/> <!-- Largo Santo Agostinho -->
+        <stop busStop="gtfs_lra_0041" duration="10" until="1993"/> <!-- Jardim Luís de Camões -->
+        <stop busStop="gtfs_lra_0104" duration="10" until="2040"/> <!-- Rua Dr. Américo Cortez Pinto -->
+        <stop busStop="gtfs_lra_0108" duration="10" until="2220"/> <!-- Av. Cidade de Maringá / Mercado Municipal -->
+        <stop busStop="gtfs_lra_2042" duration="10" until="2280"/> <!-- Av. Bernardo Pimenta (Terminal) -->
     </route>
     <route id="1023-1-001-A-U-06h35-AvBernardoPimen" edges="805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 540875124#0 540875124#1 1070323174 888011195 540875125 262086644#0 262086644#1 144795272#1 175877264 872758405 23644801#0 23644801#1 175877342 442034778 1036889062 51536578#0 51536578#1 -759412427#6 -759412427#4 -759412427#3 -759412427#1 759412427#0 759412427#2 -783219943 -783219942 722712935#1 -902473289#1 -902473289#0 -722712940 -308758569#1 -308758569#0 308758569#0">
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.1" duration="10" until="90"/> <!-- Arrabalde da Ponte -->
-        <stop busStop="1023-1-001-A-U-06h35-AvBernardoPimen.2" duration="10" until="120"/> <!-- Rua da Matinha -->
-        <stop busStop="1023-1-001-A-U-06h35-AvBernardoPimen.3" duration="10" until="180"/> <!-- Quinta do Bispo / Instituto Seg. Social -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.2" duration="10" until="340"/> <!-- Estrada Dos Marinheiros / X Travessa Oliveiras -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.1" duration="10" until="520"/> <!-- Rua 20 De Junho / Igreja Marinheiros -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="0"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_0110" duration="10" until="90"/> <!-- Arrabalde da Ponte -->
+        <stop busStop="gtfs_lra_0113" duration="10" until="120"/> <!-- Rua da Matinha -->
+        <stop busStop="gtfs_lra_0172" duration="10" until="180"/> <!-- Quinta do Bispo / Instituto Seg. Social -->
+        <stop busStop="gtfs_lra_0005" duration="10" until="340"/> <!-- Estrada Dos Marinheiros / X Travessa Oliveiras -->
+        <stop busStop="gtfs_lra_0216" duration="10" until="520"/> <!-- Rua 20 De Junho / Igreja Marinheiros -->
     </route>
     <route id="1023-1-002-A-U-07h00-TelheiroRImacul" edges="535287021#0 535287021#2 -218573261#1 -218573261#0 493041509#11 -493041509#11 -493041509#10 -493041509#8 -493041509#6 -493041509#5 -493041509#4 -493041509#3 -493041509#2 -493041509#1 -493041509#0 493041510 535287021#14 535287021#16 535287021#17 535287021#18 535287021#19 535287021#20 535287021#21 535287021#22 535287021#23 535287021#24 535287021#25 535287021#26 175877157 544813862#0 544813862#1 544813862#2 175877163 -1576660775 -741976862#1 -741976862#0 -697428525#5 -697428525#4 -697428525#2 -697428525#1 -697428525#0 -697428526#3 -697428526#1 -697428526#0 175877156 762753332 787313047 787313046 175877212 776872434 144843934#0 144843934#1 144843935 270159745#0 270159745#1 686704770 686704771#0 682926168#0 -270159751#1 -270159751#0 -673247215 -673247217 -682926167#1 -682926167#0 677762926 705519309#1 425372714#0 425372714#1 425372714#2 425372714#3 425372714#4 425372714#5 425372714#6 425372714#7 425378654#1 175877220 1070323176 175876998 733616003#0 733616003#1 733616004#0 733616004#1 951314477 731786313#0 731786313#2 731786313#3 -733616006#2 -733616006#1 -733616006#0 -1219566378 -1034866104 -166576361 733616005 1070340173 540875124#0 540875124#1 1070323174 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2 107382846#3 733059830#1 733059830#2 805921563#0 805921563#1 805921563#2 805921562#0 805921562#1 805921562#2 805921562#3 805921562#4 805921562#5 144802555 1070323207#3 1070323175 1070340173 540875124#0 540875124#1 1070323174 888011195 540875125 262086644#0 262086644#1 144795272#1 175877264 872758405 23644801#0 23644801#1 175877342 442034778 1036889062 51536578#0 51536578#1 -759412427#6 -759412427#4 -759412427#3 -759412427#1 759412427#0 759412427#2 -783219943 -783219942 722712935#1 -902473289#1 -902473289#0 -722712940 -308758569#1 -308758569#0 308758569#0">
-        <stop busStop="1023-1-002-A-U-07h00-TelheiroRImacul.5" duration="10" until="0"/> <!-- Rua Imaculada Conceição / Quartel -->
-        <stop busStop="1023-1-002-A-U-07h00-TelheiroRImacul.6" duration="10" until="90"/> <!-- Rua Lino António (Rua Poeta José da Cruz) -->
-        <stop busStop="1023-1-002-A-U-07h00-TelheiroRImacul.7" duration="10" until="155"/> <!-- Rua Lino António (Rua Titto Larcher) -->
-        <stop busStop="1023-1-002-A-U-07h00-TelheiroRImacul.8" duration="10" until="240"/> <!-- Rua D. José Alves Correia Silva -->
-        <stop busStop="1023-1-002-A-U-07h00-TelheiroRImacul.9" duration="10" until="310"/> <!-- Colégio Conciliar De Maria Imaculada -->
-        <stop busStop="1023-1-002-A-U-07h00-TelheiroRImacul.10" duration="10" until="400"/> <!-- Prisão Escola -->
-        <stop busStop="1011-1-001-A-U-06h40-AvBernardoPimen.26" duration="10" until="535"/> <!-- Bairro dos Sargentos -->
-        <stop busStop="1023-1-002-A-U-07h00-TelheiroRImacul.12" duration="10" until="600"/> <!-- Largo Da República -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.17" duration="10" until="650"/> <!-- Bairro dos Capuchos -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.18" duration="10" until="765"/> <!-- Esc. Domingos Sequeira -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.19" duration="10" until="820"/> <!-- Av. 25 De Abril -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.20" duration="10" until="950"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" duration="10" until="1200"/> <!-- Av. Bernardo Pimenta (Estádio) -->
-        <stop busStop="1011-1-031-AX2431-U-25h20-AvBernardoPimen.1" duration="10" until="1290"/> <!-- Arrabalde da Ponte -->
-        <stop busStop="1023-1-001-A-U-06h35-AvBernardoPimen.2" duration="10" until="1320"/> <!-- Rua da Matinha -->
-        <stop busStop="1023-1-001-A-U-06h35-AvBernardoPimen.3" duration="10" until="1380"/> <!-- Quinta do Bispo / Instituto Seg. Social -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.2" duration="10" until="1540"/> <!-- Estrada Dos Marinheiros / X Travessa Oliveiras -->
-        <stop busStop="1013-1-001-A-U-06h20-PontedaPedraXMa.1" duration="10" until="1720"/> <!-- Rua 20 De Junho / Igreja Marinheiros -->
+        <stop busStop="gtfs_lra_0188" duration="10" until="0"/> <!-- Rua Imaculada Conceição / Quartel -->
+        <stop busStop="gtfs_lra_0186" duration="10" until="90"/> <!-- Rua Lino António (Rua Poeta José da Cruz) -->
+        <stop busStop="gtfs_lra_0184" duration="10" until="155"/> <!-- Rua Lino António (Rua Titto Larcher) -->
+        <stop busStop="gtfs_lra_0181" duration="10" until="240"/> <!-- Rua D. José Alves Correia Silva -->
+        <stop busStop="gtfs_lra_2062" duration="10" until="310"/> <!-- Colégio Conciliar De Maria Imaculada -->
+        <stop busStop="gtfs_lra_0177" duration="10" until="400"/> <!-- Prisão Escola -->
+        <stop busStop="gtfs_lra_0077" duration="10" until="535"/> <!-- Bairro dos Sargentos -->
+        <stop busStop="gtfs_lra_2035" duration="10" until="600"/> <!-- Largo Da República -->
+        <stop busStop="gtfs_lra_2038" duration="10" until="650"/> <!-- Bairro dos Capuchos -->
+        <stop busStop="gtfs_lra_2039" duration="10" until="765"/> <!-- Esc. Domingos Sequeira -->
+        <stop busStop="gtfs_lra_2041" duration="10" until="820"/> <!-- Av. 25 De Abril -->
+        <stop busStop="gtfs_lra_0044" duration="10" until="950"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
+        <stop busStop="gtfs_lra_0096" duration="10" until="1200"/> <!-- Av. Bernardo Pimenta (Estádio) -->
+        <stop busStop="gtfs_lra_0110" duration="10" until="1290"/> <!-- Arrabalde da Ponte -->
+        <stop busStop="gtfs_lra_0113" duration="10" until="1320"/> <!-- Rua da Matinha -->
+        <stop busStop="gtfs_lra_0172" duration="10" until="1380"/> <!-- Quinta do Bispo / Instituto Seg. Social -->
+        <stop busStop="gtfs_lra_0005" duration="10" until="1540"/> <!-- Estrada Dos Marinheiros / X Travessa Oliveiras -->
+        <stop busStop="gtfs_lra_0216" duration="10" until="1720"/> <!-- Rua 20 De Junho / Igreja Marinheiros -->
     </route>
     <route id="1026-1-001-A-U-06h45-RuaSantaCatarin" edges="1390727440#2 -1390726040 -1390727440#1 -1390727440#0 -647269989#4 -647269989#3 -647269989#2 -647269989#0 -1390727187#1 -1390727187#0 -1390727186#0 62512499 761999304 761999305 74174818#0 74174818#1 1352361403 76691243 -848389775#1 -76691265 -952246033#1 -952246033#0 -1315993784 -952246034 952239330 -197287475 -1332439212#0 -1331485059#0 -810572175#0 197287481 76691249#4 76691246 76691266#4 76691266#5 1274278486 1274278487#2 728177678 1352361403 772276087 772276086 761999303 761999304 139031275#0 139031275#2 145209369#4 1352362884 144798585 728209795 875568942#0 875568942#1 875568942#2 1068949285 278025372 875568943 23592134 728209796 1352364206 1352364231#0 1352364231#1 875568945 875568944#0 875568944#1 270159754 -928722692 -928722694 -699520057 -270159757 -792763918 -677767659 -728706385#0 -713181371#1 -713181371#0 -686693358#1 -686693358#0 -1026104494#1 -1026104494#0 686693359#0 686693359#1 -1026104495 -686693360 -650122888#2 682926168#0 -270159751#1 -270159751#0 -673247215 -673247217 -682926167#1 -682926167#0 677762926 705519309#1 425372714#0 425372714#1 425372714#2 425372714#3 425372714#4 425372714#5 425372714#6 425372714#7 425378654#1 175877220 1070323176 175876998 733616003#0 733616003#1 733616004#0 733616004#1 951314477 731786313#0 731786313#2 731786313#3 -733616006#2 -733616006#1 -733616006#0 -1219566378 -1034866104 -166576361 733616005 1070340173 540875124#0 540875124#1 1070323174 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2">
-        <stop busStop="1026-1-001-A-U-06h45-RuaSantaCatarin.7" duration="10" until="0"/> <!-- Junta Freguesia Parceiros -->
-        <stop busStop="1026-1-001-A-U-06h45-RuaSantaCatarin.8" duration="10" until="35"/> <!-- X Rua Santa Maria -->
-        <stop busStop="1026-1-001-A-U-06h45-RuaSantaCatarin.9" duration="10" until="100"/> <!-- Quinta do Pisão -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.7" duration="10" until="185"/> <!-- Casal de Santa Clara -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.8" duration="10" until="223"/> <!-- Rua da Quinta (Rua do Convento) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.9" duration="10" until="249"/> <!-- Rua da Quinta (Rotunda Edifoz) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.10" duration="10" until="286"/> <!-- Rua da Carvalha -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.11" duration="10" until="330"/> <!-- Incubadora IPL -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.12" duration="10" until="381"/> <!-- Rua de Santa Clara (Rotunda Edifoz) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.13" duration="10" until="451"/> <!-- Rua de Santa Clara (Rotunda Aérea) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.14" duration="10" until="565"/> <!-- Rotunda Alto do Vieiro -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.15" duration="10" until="712"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.16" duration="10" until="780"/> <!-- Câmara Municipal / ESEL -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.17" duration="10" until="826"/> <!-- Bairro dos Capuchos -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.18" duration="10" until="895"/> <!-- Esc. Domingos Sequeira -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.19" duration="10" until="927"/> <!-- Av. 25 De Abril -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.20" duration="10" until="1005"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.29" duration="10" until="1080"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_0033" duration="10" until="0"/> <!-- Junta Freguesia Parceiros -->
+        <stop busStop="gtfs_lra_2002" duration="10" until="35"/> <!-- X Rua Santa Maria -->
+        <stop busStop="gtfs_lra_2088" duration="10" until="100"/> <!-- Quinta do Pisão -->
+        <stop busStop="gtfs_lra_0052" duration="10" until="185"/> <!-- Casal de Santa Clara -->
+        <stop busStop="gtfs_lra_0014" duration="10" until="223"/> <!-- Rua da Quinta (Rua do Convento) -->
+        <stop busStop="gtfs_lra_0026" duration="10" until="249"/> <!-- Rua da Quinta (Rotunda Edifoz) -->
+        <stop busStop="gtfs_lra_0152" duration="10" until="286"/> <!-- Rua da Carvalha -->
+        <stop busStop="gtfs_lra_0243" duration="10" until="330"/> <!-- Incubadora IPL -->
+        <stop busStop="gtfs_lra_0015" duration="10" until="381"/> <!-- Rua de Santa Clara (Rotunda Edifoz) -->
+        <stop busStop="gtfs_lra_0016" duration="10" until="451"/> <!-- Rua de Santa Clara (Rotunda Aérea) -->
+        <stop busStop="gtfs_lra_2043" duration="10" until="565"/> <!-- Rotunda Alto do Vieiro -->
+        <stop busStop="gtfs_lra_2031" duration="10" until="712"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
+        <stop busStop="gtfs_lra_2033" duration="10" until="780"/> <!-- Câmara Municipal / ESEL -->
+        <stop busStop="gtfs_lra_2038" duration="10" until="826"/> <!-- Bairro dos Capuchos -->
+        <stop busStop="gtfs_lra_2039" duration="10" until="895"/> <!-- Esc. Domingos Sequeira -->
+        <stop busStop="gtfs_lra_2041" duration="10" until="927"/> <!-- Av. 25 De Abril -->
+        <stop busStop="gtfs_lra_0044" duration="10" until="1005"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
+        <stop busStop="gtfs_lra_2042" duration="10" until="1080"/> <!-- Av. Bernardo Pimenta (Terminal) -->
     </route>
     <route id="1026-1-007-A-U-16h45-RuaSantaCatarin" edges="1390727440#2 -1390726040 -1390727440#1 -1390727440#0 -647269989#4 -647269989#3 -647269989#2 -647269989#0 -1390727187#1 -1390727187#0 -1390727186#0 62512499 761999304 761999305 74174818#0 74174818#1 1352361403 76691243 -848389775#1 -76691265 -952246033#1 -952246033#0 -1315993784 -952246034 952239330 -197287475 -1332439212#0 -1331485059#0 -810572175#0 197287481 76691249#4 76691246 76691266#4 76691266#5 1274278486 1274278487#2 728177678 1352361403 772276087 772276086 761999303 761999304 139031275#0 139031275#2 145209369#4 1352362884 144798585 728209795 875568942#0 875568942#1 875568942#2 1068949285 278025372 875568943 23592134 728209796 1352364206 1352364231#0 1352364231#1 875568945 875568944#0 875568944#1 270159754 -928722692 -928722694 -699520057 -270159757 -792763918 -677767659 -728706385#0 -713181371#1 -713181371#0 -686693358#1 -686693358#0 -1026104494#1 -1026104494#0 686693359#0 686693359#1 -1026104495 -686693360 -650122888#2 682926168#0 -270159751#1 -270159751#0 -673247215 -673247217 -682926167#1 -682926167#0 677762926 705519309#1 425372714#0 425372714#1 425372714#2 425372714#3 425372714#4 425372714#5 425372714#6 425372714#7 425378654#1 175877220 1070323176 175876998 733616003#0 733616003#1 733616004#0 733616004#1 951314477 731786313#0 731786313#2 731786313#3 -733616006#2 -733616006#1 -733616006#0 -1219566378 -1034866104 -166576361 733616005 1070340173 540875124#0 540875124#1 1070323174 888011195 1070323207#0 1070323207#1 1337256016 107382846#0 107382846#2">
-        <stop busStop="1026-1-001-A-U-06h45-RuaSantaCatarin.7" duration="10" until="0"/> <!-- Junta Freguesia Parceiros -->
-        <stop busStop="1026-1-001-A-U-06h45-RuaSantaCatarin.8" duration="10" until="42"/> <!-- X Rua Santa Maria -->
-        <stop busStop="1026-1-001-A-U-06h45-RuaSantaCatarin.9" duration="10" until="116"/> <!-- Quinta do Pisão -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.7" duration="10" until="214"/> <!-- Casal de Santa Clara -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.8" duration="10" until="254"/> <!-- Rua da Quinta (Rua do Convento) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.9" duration="10" until="282"/> <!-- Rua da Quinta (Rotunda Edifoz) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.10" duration="10" until="315"/> <!-- Rua da Carvalha -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.11" duration="10" until="360"/> <!-- Incubadora IPL -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.12" duration="10" until="411"/> <!-- Rua de Santa Clara (Rotunda Edifoz) -->
-        <stop busStop="1016-1-001-A-U-07h10-AvBernardoPimen.13" duration="10" until="481"/> <!-- Rua de Santa Clara (Rotunda Aérea) -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.14" duration="10" until="596"/> <!-- Rotunda Alto do Vieiro -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.15" duration="10" until="746"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.16" duration="10" until="814"/> <!-- Câmara Municipal / ESEL -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.17" duration="10" until="862"/> <!-- Bairro dos Capuchos -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.18" duration="10" until="934"/> <!-- Esc. Domingos Sequeira -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.19" duration="10" until="968"/> <!-- Av. 25 De Abril -->
-        <stop busStop="1010-1-001-XJA1-U-07h10-AvBernardoPimen.20" duration="10" until="1049"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
-        <stop busStop="1012-1-001-A-U-06h50-AvBernardoPimen.29" duration="10" until="1114"/> <!-- Av. Bernardo Pimenta (Terminal) -->
+        <stop busStop="gtfs_lra_0033" duration="10" until="0"/> <!-- Junta Freguesia Parceiros -->
+        <stop busStop="gtfs_lra_2002" duration="10" until="42"/> <!-- X Rua Santa Maria -->
+        <stop busStop="gtfs_lra_2088" duration="10" until="116"/> <!-- Quinta do Pisão -->
+        <stop busStop="gtfs_lra_0052" duration="10" until="214"/> <!-- Casal de Santa Clara -->
+        <stop busStop="gtfs_lra_0014" duration="10" until="254"/> <!-- Rua da Quinta (Rua do Convento) -->
+        <stop busStop="gtfs_lra_0026" duration="10" until="282"/> <!-- Rua da Quinta (Rotunda Edifoz) -->
+        <stop busStop="gtfs_lra_0152" duration="10" until="315"/> <!-- Rua da Carvalha -->
+        <stop busStop="gtfs_lra_0243" duration="10" until="360"/> <!-- Incubadora IPL -->
+        <stop busStop="gtfs_lra_0015" duration="10" until="411"/> <!-- Rua de Santa Clara (Rotunda Edifoz) -->
+        <stop busStop="gtfs_lra_0016" duration="10" until="481"/> <!-- Rua de Santa Clara (Rotunda Aérea) -->
+        <stop busStop="gtfs_lra_2043" duration="10" until="596"/> <!-- Rotunda Alto do Vieiro -->
+        <stop busStop="gtfs_lra_2031" duration="10" until="746"/> <!-- Porto Moniz / Esc. F. Rodrigues Lobo -->
+        <stop busStop="gtfs_lra_2033" duration="10" until="814"/> <!-- Câmara Municipal / ESEL -->
+        <stop busStop="gtfs_lra_2038" duration="10" until="862"/> <!-- Bairro dos Capuchos -->
+        <stop busStop="gtfs_lra_2039" duration="10" until="934"/> <!-- Esc. Domingos Sequeira -->
+        <stop busStop="gtfs_lra_2041" duration="10" until="968"/> <!-- Av. 25 De Abril -->
+        <stop busStop="gtfs_lra_0044" duration="10" until="1049"/> <!-- Av. 25 de Abril / Castelo de Leiria -->
+        <stop busStop="gtfs_lra_2042" duration="10" until="1114"/> <!-- Av. Bernardo Pimenta (Terminal) -->
     </route>
     <vehicle id="1010-1-001-XJA1-U-07h10-AvBernardoPimen.0" route="1010-1-001-XJA1-U-07h10-AvBernardoPimen" type="bus" depart="25790" line="9">
         <param key="gtfs.route_name" value="9"/>
