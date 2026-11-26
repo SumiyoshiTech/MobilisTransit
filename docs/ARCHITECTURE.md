@@ -9,11 +9,11 @@ MobilisTransit is an integrated four-course-unit Master's prototype (TEI, AAP, D
   - `DEC-001`: Core AR includes **both** Stop-Anchored arrival panel + compact 3D mini-route (`REQ-012`) **and** Tabletop 3D full-route mode (`REQ-013`).
   - `DEC-002`: Experiments support **both** stop hold (`0–900 s` integer) and optional bounded background traffic multiplier (default `1.0x`, provisional safe range `[0.5, 2.5]`).
   - `DEC-003`: Standard REST polling starts at `5 s` (`1 s / 5 s / 30 s` configurable); live demonstrations meet the provisional `< 2 s` server-update-to-display latency target via Server-Sent Events (SSE) push (with fast `1 s` polling fallback), while telemetry reports both request-to-display latency and full state freshness transparently.
-  - `DEC-004`: Team's existing Mobilis Line 9 SUMO network is already committed in `SUMO/` (`linha9.sumocfg`, `leiria.net.xml.gz`, `pt_vtypes.xml`, `gtfs_pt_stops.add.xml`, `gtfs_pt_vehicles_L9.add.xml` — 22-stop loop, 12 scheduled trips) and serves as the canonical route/stop ground truth alongside `SUMO/manifest.json`; a fast 4-stop synthetic SUMO fixture (`SUMO/fixtures/sample_line9/`) supports CI and fast headless unit tests.
+  - `DEC-004`: Team's existing Mobilis Line 9 SUMO network is already committed in `sumo/` (`linha9.sumocfg`, `leiria.net.xml.gz`, `pt_vtypes.xml`, `gtfs_pt_stops.add.xml`, `gtfs_pt_vehicles_L9.add.xml` — 22-stop loop, 12 scheduled trips) and serves as the canonical route/stop ground truth alongside `sumo/manifest.json`; a fast 4-stop synthetic SUMO fixture (`sumo/fixtures/sample_line9/`) supports CI and fast headless unit tests.
   - `DEC-005`: Undated `M1`–`M4` technical milestones; retains DDM §6.1–§6.2 checks, setup runbook, and demo video checklist.
   - **Architectural choices confirmed during planning**:
     1. **AR 3D Stack**: 100% Native Android (Kotlin + Jetpack Compose + ARCore `AR Optional` + `io.github.sceneview:arsceneview` / Filament) — zero Unity bridge.
-    2. **Workspace Layout**: Git repository rooted at `MobilisTransit/` (`C:\Users\loupa\Desktop\PROJETO_4X\MobilisTransit`) with ASCII top-level directories (`SUMO/`, `backend/`, `ml/`, `android/`, `evaluation/`) to avoid Windows Gradle/NDK/ARCore/SUMO path-encoding bugs; academic proposal docs stay in the parent folder `../`.
+    2. **Workspace Layout**: Git repository rooted at `MobilisTransit/` (`C:\Users\loupa\Desktop\PROJETO_4X\MobilisTransit`) with ASCII top-level directories (`sumo/`, `backend/`, `ml/`, `android/`, `evaluation/`) to avoid Windows Gradle/NDK/ARCore/SUMO path-encoding bugs; academic proposal docs stay in the parent folder `../`.
     3. **Backend & Admin Web Stack**: FastAPI + SQLAlchemy 2.0 (SQLite WAL default, PostgreSQL-ready via `DATABASE_URL`) + FastAPI-served Admin Web UI (Jinja2 + vanilla JS + Chart.js; zero Node/npm build step).
     4. **SUMO & Ollama Runtime**: System Eclipse SUMO `1.28.0` installed locally (`SUMO_HOME=C:\Program Files (x86)\SUMO\`) plus local Python 3.13 `.venv` with PyPI `eclipse-sumo` fallback (`sumo.exe` bundled) + local Ollama (3B–4B tool-calling model such as `qwen2.5:3b` fitting 4 GB VRAM / 16 GB RAM) + OpenAI-compatible external API fallback via environment variables.
     5. **Offline ML Training in Google Colab**: SUMO multi-scenario datasets are generated locally and exported as a self-contained Colab bundle (`ml/exports/`). Training, model comparison, and held-out evaluation run in **Google Colab** via `ml/notebooks/MobilisTransit_AAP_Training_Colab.ipynb` calling the same pure-Python `ml/` modules (also runnable locally for CI tests). Exported artifacts use **portable cross-Python/cross-OS JSON serialization** (XGBoost native JSON + JSON preprocessor/linear/baseline weights — **no `pickle`/`joblib`**) so models trained on Colab Linux (Python 3.11/3.12) load identically on Windows (Python 3.13) with zero unpickling or security issues.
@@ -25,7 +25,7 @@ MobilisTransit/                      # Main Git repo (parent ../ holds academic 
 ├── README.md                        # Repo overview & SUMO replication instructions
 ├── pyproject.toml                   # Unified Python 3.13 workspace dependencies & pytest config
 ├── docs/                            # Discovery, architecture, plan, and task specs
-├── SUMO/                            # Canonical Line 9 SUMO assets + fixture (NEVER add SUMO/__init__.py!)
+├── sumo/                            # Canonical Line 9 SUMO assets + fixture (NEVER add sumo/__init__.py!)
 │   ├── linha9.sumocfg               # Team's canonical Mobilis Line 9 SUMO config
 │   ├── leiria.net.xml.gz            # OSM Leiria road network
 │   ├── pt_vtypes.xml                # Bus vType definitions
@@ -79,13 +79,13 @@ MobilisTransit/                      # Main Git repo (parent ../ holds academic 
     └── demo/RUNBOOK.md              # End-to-end setup, Line 9 drop-in, calibration & demo video script
 ```
 
-> **Critical Windows/Python Safeguard**: Because `pip install eclipse-sumo` exposes a site-packages module named `sumo` and Windows paths are case-insensitive (`SUMO/` == `sumo/`), NEVER place an `__init__.py` file directly inside `SUMO/` and NEVER create a separate lowercase `sumo/` folder. Production server/ML modules live strictly in `backend/` and `ml/`. `backend/app/simulation/sumo_env.py` locates `sumo`/`sumo.exe` by checking: (1) `os.environ["SUMO_HOME"]`, (2) `shutil.which("sumo")`, (3) `importlib.metadata.distribution("eclipse-sumo")` binary files — immune to working-directory shadowing.
+> **Critical Windows/Python Safeguard**: Because `pip install eclipse-sumo` exposes a site-packages module named `sumo`, NEVER place an `__init__.py` file or top-level Python code inside `sumo/`. Production server/ML modules live strictly in `backend/` and `ml/`. `backend/app/simulation/sumo_env.py` locates `sumo`/`sumo.exe` by checking: (1) `os.environ["SUMO_HOME"]`, (2) `shutil.which("sumo")`, (3) `importlib.metadata.distribution("eclipse-sumo")` binary files — immune to working-directory shadowing.
 
 ## 3. Logical Component Architecture & Data Flows
 ```text
                          +---------------------------------------------------+
                          |              SUMO / Recorded Replay               |
-                         |  SUMO/ (Line 9) or sample_line9 + TraCI / Replay  |
+                         |  sumo/ (Line 9) or sample_line9 + TraCI / Replay  |
                          +-------------------------+-------------------------+
                                                    | raw vehicle states & stop arrivals
                                                    v
@@ -141,7 +141,7 @@ MobilisTransit/                      # Main Git repo (parent ../ holds academic 
 
 ## 4. Public Contracts
 
-### 4.1 SUMO Line 9 Canonical Manifest (`SUMO/manifest.json`)
+### 4.1 SUMO Line 9 Canonical Manifest (`sumo/manifest.json`)
 ```json
 {
   "route_id": "LINE-9",
