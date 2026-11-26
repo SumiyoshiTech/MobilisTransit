@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mobilistransit.local/schemas/sumo-manifest.schema.json",
+  "$defs": {
+    "StopManifest": {
+      "additionalProperties": false,
+      "description": "Single ordered bus stop entry in a SUMO route manifest.",
+      "properties": {
+        "stop_id": {
+          "description": "Unique stop code on the route (e.g. P01).",
+          "minLength": 1,
+          "title": "Stop Id",
+          "type": "string"
+        },
+        "sumo_bus_stop_id": {
+          "description": "SUMO <busStop id='...'> identifier (may repeat for circular loop terminals).",
+          "minLength": 1,
+          "title": "Sumo Bus Stop Id",
+          "type": "string"
+        },
+        "name": {
+          "description": "Human-readable stop name.",
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "sequence_index": {
+          "description": "Zero-based strictly increasing stop order.",
+          "minimum": 0,
+          "title": "Sequence Index",
+          "type": "integer"
+        },
+        "distance_from_start_m": {
+          "description": "Cumulative route distance from sequence_index=0 in metres.",
+          "minimum": 0.0,
+          "title": "Distance From Start M",
+          "type": "number"
+        },
+        "x_norm": {
+          "description": "Normalized horizontal coordinate [0, 1].",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "X Norm",
+          "type": "number"
+        },
+        "y_norm": {
+          "description": "Normalized vertical coordinate [0, 1].",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Y Norm",
+          "type": "number"
+        },
+        "reference_offset_s": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Published timetable offset from trip start in seconds, or null (BR-001).",
+          "title": "Reference Offset S"
+        },
+        "ar_marker_id": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Printed Augmented Images marker identifier.",
+          "title": "Ar Marker Id"
+        },
+        "ar_marker_width_m": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Physical width of the printed AR marker in metres.",
+          "title": "Ar Marker Width M"
+        }
+      },
+      "required": [
+        "stop_id",
+        "sumo_bus_stop_id",
+        "name",
+        "sequence_index",
+        "distance_from_start_m",
+        "x_norm",
+        "y_norm"
+      ],
+      "title": "StopManifest",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Canonical SUMO network & route topology manifest (ARCHITECTURE.md §4.1).",
+  "properties": {
+    "route_id": {
+      "minLength": 1,
+      "title": "Route Id",
+      "type": "string"
+    },
+    "route_code": {
+      "minLength": 1,
+      "title": "Route Code",
+      "type": "string"
+    },
+    "route_name": {
+      "minLength": 1,
+      "title": "Route Name",
+      "type": "string"
+    },
+    "network_version": {
+      "minLength": 1,
+      "title": "Network Version",
+      "type": "string"
+    },
+    "sumocfg": {
+      "minLength": 1,
+      "title": "Sumocfg",
+      "type": "string"
+    },
+    "net_file": {
+      "minLength": 1,
+      "title": "Net File",
+      "type": "string"
+    },
+    "route_file": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Route File"
+    },
+    "additional_files": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Additional Files",
+      "type": "array"
+    },
+    "bus_vehicle_id": {
+      "minLength": 1,
+      "title": "Bus Vehicle Id",
+      "type": "string"
+    },
+    "bus_vehicle_prefix": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Bus Vehicle Prefix"
+    },
+    "bus_route_id": {
+      "minLength": 1,
+      "title": "Bus Route Id",
+      "type": "string"
+    },
+    "calibration_notes": {
+      "default": "",
+      "title": "Calibration Notes",
+      "type": "string"
+    },
+    "stops": {
+      "items": {
+        "$ref": "#/$defs/StopManifest"
+      },
+      "minItems": 2,
+      "title": "Stops",
+      "type": "array"
+    }
+  },
+  "required": [
+    "route_id",
+    "route_code",
+    "route_name",
+    "network_version",
+    "sumocfg",
+    "net_file",
+    "bus_vehicle_id",
+    "bus_route_id",
+    "stops"
+  ],
+  "title": "NetworkManifest",
+  "type": "object"
+}

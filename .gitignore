@@ -37,3 +37,17 @@ osm_bbox.osm.xml
 .vscode/
 .idea/
 *.swp
+
+# --- MobilisTransit Backend, ML & Android ---
+.pytest_cache/
+.ruff_cache/
+data/
+*.db
+*.db-wal
+*.db-shm
+.env
+android/.gradle/
+android/local.properties
+android/app/build/
+ml/exports/
+ml/artifacts/*.tmp

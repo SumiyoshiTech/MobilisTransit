@@ -1,0 +1,66 @@
+{
+  "route_id": "LINE-9",
+  "route_code": "L9",
+  "route_name": "Mobilis Line 9 (Synthetic 4-Stop Fixture)",
+  "network_version": "sample-line9-v1.0",
+  "sumocfg": "sample_line9.sumocfg",
+  "net_file": "sample_line9.net.xml",
+  "route_file": "sample_line9.rou.xml",
+  "additional_files": [
+    "sample_line9_stops.add.xml"
+  ],
+  "bus_vehicle_id": "bus_line9_0",
+  "bus_vehicle_prefix": "bus_line9_",
+  "bus_route_id": "route_line9",
+  "calibration_notes": "Synthetic 4-stop fixture for unit and CI tests; P04 has reference_offset_s=null to exercise BR-001",
+  "stops": [
+    {
+      "stop_id": "P01",
+      "sumo_bus_stop_id": "bs_p01",
+      "name": "Av. Bernardo Pimenta (Fixture)",
+      "sequence_index": 0,
+      "distance_from_start_m": 0.0,
+      "x_norm": 0.05,
+      "y_norm": 0.5938,
+      "reference_offset_s": 0,
+      "ar_marker_id": "marker_p01",
+      "ar_marker_width_m": 0.18
+    },
+    {
+      "stop_id": "P02",
+      "sumo_bus_stop_id": "bs_p02",
+      "name": "Largo da Sé (Fixture)",
+      "sequence_index": 1,
+      "distance_from_start_m": 564.3,
+      "x_norm": 0.3748,
+      "y_norm": 0.5494,
+      "reference_offset_s": 60,
+      "ar_marker_id": "marker_p02",
+      "ar_marker_width_m": 0.18
+    },
+    {
+      "stop_id": "P03",
+      "sumo_bus_stop_id": "bs_p03",
+      "name": "Av. Marquês de Pombal (Fixture)",
+      "sequence_index": 2,
+      "distance_from_start_m": 1067.7,
+      "x_norm": 0.6611,
+      "y_norm": 0.4926,
+      "reference_offset_s": 120,
+      "ar_marker_id": "marker_p03",
+      "ar_marker_width_m": 0.18
+    },
+    {
+      "stop_id": "P04",
+      "sumo_bus_stop_id": "bs_p04",
+      "name": "Campus 2 ESTG (Fixture)",
+      "sequence_index": 3,
+      "distance_from_start_m": 1586.9,
+      "x_norm": 0.95,
+      "y_norm": 0.4062,
+      "reference_offset_s": null,
+      "ar_marker_id": "marker_p04",
+      "ar_marker_width_m": 0.18
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mobilistransit"
+version = "0.1.0"
+description = "MobilisTransit — SUMO traffic simulation, arrival-time ML, FastAPI backend, and agentic analysis for Mobilis Line 9"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.162.0",
+    "sqlalchemy>=2.1.9",
+    "pydantic-settings>=2.7.0",
+    "jinja2>=3.1.5",
+    "python-multipart>=0.0.20",
+    "eclipse-sumo",
+    "traci",
+    "sumolib",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.9.1",
+    "xgboost>=3.4.1",
+    "langgraph>=0.3",
+    "langchain-core>=0.3",
+    "langchain-ollama>=0.3",
+    "langchain-openai>=0.3",
+    "httpx>=0.28",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.25",
+    "ruff>=0.9",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["backend*", "ml*", "evaluation*"]
+exclude = ["sumo*", "docs*", "android*", "data*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+norecursedirs = [".git", ".venv", "sumo", "android", "docs", "data"]
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100

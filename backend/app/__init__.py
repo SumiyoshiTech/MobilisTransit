@@ -1,0 +1,1 @@
+"""MobilisTransit FastAPI application package."""

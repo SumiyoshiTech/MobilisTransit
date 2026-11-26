@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="bs_p01" lane="e0_0" startPos="80.00" endPos="100.00" friendlyPos="true" name="Av. Bernardo Pimenta (Fixture)"/>
+    <busStop id="bs_p02" lane="e1_0" startPos="240.00" endPos="260.00" friendlyPos="true" name="Largo da Sé (Fixture)"/>
+    <busStop id="bs_p03" lane="e2_0" startPos="240.00" endPos="260.00" friendlyPos="true" name="Av. Marquês de Pombal (Fixture)"/>
+    <busStop id="bs_p04" lane="e3_0" startPos="240.00" endPos="260.00" friendlyPos="true" name="Campus 2 ESTG (Fixture)"/>
+</additional>
