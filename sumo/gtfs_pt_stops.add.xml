@@ -58,7 +58,7 @@
     <busStop id="gtfs_lra_0079" lane="697428526#3_0" startPos="0.00" endPos="9.87" friendlyPos="true" name="Bairro dos Sargentos"/>
     <busStop id="gtfs_lra_2029" lane="713181358#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Centro De Saúde Gorjão Henriques / Residências IPL"/>
     <busStop id="gtfs_lra_0156" lane="93627036#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rua Qta. Do Seminário (Centro Comercial)"/>
-    <busStop id="gtfs_lra_0064" lane="-705196003#1_0" startPos="0.00" endPos="7.45" friendlyPos="true" name="Campus 2 IPL"/>
+    <busStop id="gtfs_lra_0064" lane="60939829#0_0" startPos="16.00" endPos="29.00" friendlyPos="true" name="Campus 2 IPL"/>
     <busStop id="gtfs_lra_2043" lane="23592134_0" startPos="35.12" endPos="48.12" friendlyPos="true" name="Rotunda Alto do Vieiro"/>
     <busStop id="gtfs_lra_2031" lane="-792763918_0" startPos="9.25" endPos="22.25" friendlyPos="true" name="Porto Moniz / Esc. F. Rodrigues Lobo"/>
     <busStop id="gtfs_lra_2033" lane="-1026104495_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Câmara Municipal / ESEL"/>
